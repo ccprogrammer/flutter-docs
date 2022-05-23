@@ -3,16 +3,16 @@
 
 My Private Documentation
 <br>
-Playlist URL:
 
-1. [YouTube](https://www.youtube.com/watch?v=X47zIAGIJNE&list=PLlvRDpXh1Se5LTJZDrUF9h1_1AT4Raxjd)
-2. [YouTube](https://www.youtube.com/watch?v=FZiw9MWLlys) [LinearGradient]
-3. [YouTube](https://www.youtube.com/watch?v=pDnfJvh7uzc) [Card]
+## Widgets [Documentations](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) List:
 
-## Widgets List:
+Small Code Documentations
 
-1. [Container](/lib/1_container/container.dart) > Simple intro > Neumorphic design
-2. [Expanded](/lib/2_expanded/expanded.dart) > flux > layout change inside Column & Row
+1. [ExpandingTextField](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) 
+2. [IconButtonNoPadding](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) 
+3. [MyBoxShadow](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) 
+4. [MyRichText](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) 
+5. [TextButtonNoPadding](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) 
 
 
 ## Screenshots:
