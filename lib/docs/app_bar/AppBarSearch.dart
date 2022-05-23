@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 PreferredSizeWidget AppBarSearch() {
   return AppBar(
-    iconTheme: IconThemeData(color: Colors.white),
-    backgroundColor: Colors.blueAccent,
-    elevation: 1,
+    iconTheme: IconThemeData(color: Colors.black),
+    backgroundColor: Colors.white,
+    elevation: 0,
     titleSpacing: 0,
     centerTitle: true,
     automaticallyImplyLeading: false,
@@ -23,7 +23,7 @@ PreferredSizeWidget AppBarSearch() {
       margin: EdgeInsets.fromLTRB(0, 0, 24, 0),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Colors.grey,
+        color: Colors.grey.withOpacity(0.2),
       ),
       child: Focus(
         onFocusChange: (focus) {},
@@ -41,17 +41,16 @@ PreferredSizeWidget AppBarSearch() {
         padding: EdgeInsets.zero,
         constraints: BoxConstraints(),
         onPressed: () {},
-        icon: Image.asset(
-          'assets/icon_search.png',
-          width: 24,
-          height: 24,
+        icon: Icon(
+          Icons.search,
+          size: 24,
         ),
       ),
       SizedBox(width: 18),
     ],
     bottom: PreferredSize(
         child: Container(
-          color: Colors.red,
+          color: Colors.grey.withOpacity(0.5),
           height: 1.0,
         ),
         preferredSize: Size.fromHeight(4.0)),

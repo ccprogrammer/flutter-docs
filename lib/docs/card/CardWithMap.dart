@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-Widget CardWithLocation() {
+Widget CardWithMap() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
