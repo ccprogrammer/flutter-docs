@@ -38,15 +38,8 @@ Small Code Documentations
         </div>
     </td>
   </tr>
- <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/TextButtonCommon.png" height="350px"/>
-            <p><a href="lib/docs/button/TextButtonCommon.dart" target="_blank">TextButtonCommon</a></p>
-        </div>
-    </td>
-  </tr>
-    <tr>
+<!--  Card  -->
+  <tr>
         <td>
         <div style="text-align: center;">
             <img src="docs_image/CardList.png" height="350px"/>
@@ -77,7 +70,100 @@ Small Code Documentations
             <p><a href="lib/docs/card/CardWithStretchHeaderImage.dart" target="_blank">CardWithStretchHeaderImage</a></p>
         </div>
     </td>
+  </tr>  
+<!--   Loading -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/LoadingShimmers.png" height="350px"/>
+            <p><a href="lib/docs/loading/LoadingShimmers.dart" target="_blank">LoadingShimmers</a></p>
+        </div>
+    </td>
+  <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ShimmerCard.png" height="350px"/>
+            <p><a href="lib/docs/loading/ShimmerCard.dart" target="_blank">ShimmerCard</a></p>
+        </div>
+    </td>
+  <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ShimmerOverview.png" height="350px"/>
+            <p><a href="lib/docs/loading/ShimmerOverview.dart" target="_blank">ShimmerOverview</a></p>
+        </div>
+    </td>
+  <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ShimmerTile.png" height="350px"/>
+            <p><a href="lib/docs/loading/ShimmerTile.dart" target="_blank">ShimmerTile</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/Skeleton.png" height="350px"/>
+            <p><a href="lib/docs/loading/Skeleton.dart" target="_blank">Skeleton</a></p>
+        </div>
+    </td>
   </tr>
+  <!--   Rating & Review -->
+    <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/AddReviewBox.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/AddReviewBox.dart" target="_blank">AddReviewBox</a></p>
+        </div>
+    </td>
+   <td>
+        <div style="text-align: center;">
+            <img src="docs_image/RatingBox.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/RatingBox.dart" target="_blank">RatingBox</a></p>
+        </div>
+    </td>
+   <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ReviewCardCommon.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/ReviewCardCommon.dart" target="_blank">ReviewCardCommon</a></p>
+        </div>
+    </td>
+   <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ReviewRatingCard.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/ReviewRatingCard.dart" target="_blank">ReviewRatingCard</a></p>
+        </div>
+    </td>
+  </tr>
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ExpandableText.png" height="350px"/>
+            <p><a href="lib/docs/text/ExpandableText.dart" target="_blank">ExpandableText</a></p>
+        </div>
+    </td>   
+  </tr>
+  <!--   Text Field -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextFieldCommon.png" height="350px"/>
+            <p><a href="lib/docs/text_field/TextFieldCommon.dart" target="_blank">TextFieldCommon</a></p>
+        </div>
+    </td>  
+  <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextFieldNoBox.png" height="350px"/>
+            <p><a href="lib/docs/text_field/TextFieldNoBox.dart" target="_blank">TextFieldNoBox</a></p>
+        </div>
+    </td>   
+  </tr>
+<!--   Button -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextButtonCommon.png" height="350px"/>
+            <p><a href="lib/docs/button/TextButtonCommon.dart" target="_blank">TextButtonCommon</a></p>
+        </div>
+    </td>
+  </tr>
+<!--  Carousel  -->
     <tr>
         <td>
         <div style="text-align: center;">
@@ -135,38 +221,6 @@ Small Code Documentations
         </div>
     </td>
   </tr>
-   <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/LoadingShimmers.png" height="350px"/>
-            <p><a href="lib/docs/loading/LoadingShimmers.dart" target="_blank">LoadingShimmers</a></p>
-        </div>
-    </td>
-  <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ShimmerCard.png" height="350px"/>
-            <p><a href="lib/docs/loading/ShimmerCard.dart" target="_blank">ShimmerCard</a></p>
-        </div>
-    </td>
-  <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ShimmerOverview.png" height="350px"/>
-            <p><a href="lib/docs/loading/ShimmerOverview.dart" target="_blank">ShimmerOverview</a></p>
-        </div>
-    </td>
-  <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ShimmerTile.png" height="350px"/>
-            <p><a href="lib/docs/loading/ShimmerTile.dart" target="_blank">ShimmerTile</a></p>
-        </div>
-    </td>
-    <td>
-        <div style="text-align: center;">
-            <img src="docs_image/Skeleton.png" height="350px"/>
-            <p><a href="lib/docs/loading/Skeleton.dart" target="_blank">Skeleton</a></p>
-        </div>
-    </td>
-  </tr>
     <tr>
         <td>
         <div style="text-align: center;">
@@ -175,52 +229,4 @@ Small Code Documentations
         </div>
     </td>
   </tr>  
-    <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/AddReviewBox.png" height="350px"/>
-            <p><a href="lib/docs/rating_review/AddReviewBox.dart" target="_blank">AddReviewBox</a></p>
-        </div>
-    </td>
-   <td>
-        <div style="text-align: center;">
-            <img src="docs_image/RatingBox.png" height="350px"/>
-            <p><a href="lib/docs/rating_review/RatingBox.dart" target="_blank">RatingBox</a></p>
-        </div>
-    </td>
-   <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ReviewCardCommon.png" height="350px"/>
-            <p><a href="lib/docs/rating_review/ReviewCardCommon.dart" target="_blank">ReviewCardCommon</a></p>
-        </div>
-    </td>
-   <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ReviewRatingCard.png" height="350px"/>
-            <p><a href="lib/docs/rating_review/ReviewRatingCard.dart" target="_blank">ReviewRatingCard</a></p>
-        </div>
-    </td>
-  </tr>
-   <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ExpandableText.png" height="350px"/>
-            <p><a href="lib/docs/text/ExpandableText.dart" target="_blank">ExpandableText</a></p>
-        </div>
-    </td>   
-  </tr>
-   <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/TextFieldCommon.png" height="350px"/>
-            <p><a href="lib/docs/text_field/TextFieldCommon.dart" target="_blank">TextFieldCommon</a></p>
-        </div>
-    </td>  
-  <td>
-        <div style="text-align: center;">
-            <img src="docs_image/TextFieldNoBox.png" height="350px"/>
-            <p><a href="lib/docs/text_field/TextFieldNoBox.dart" target="_blank">TextFieldNoBox</a></p>
-        </div>
-    </td>   
-  </tr>
 </table>
