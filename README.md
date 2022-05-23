@@ -1,10 +1,5 @@
 
-# My Documentation
-
-My Private Documentation
-<br>
-
-## Widgets [Documentations](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) List:
+# Widgets [Documentations](https://github.com/ccprogrammer/my-docs/tree/main/lib/docs) List:
 
 Small Code Documentations
 
