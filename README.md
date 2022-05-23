@@ -1,136 +1,19 @@
-<img src="screenshots/badges/built-with-love.svg" height="28px"/>&nbsp;&nbsp;
-<img src="screenshots/badges/flutter-dart.svg" height="28px" />&nbsp;&nbsp;
-<a href="https://choosealicense.com/licenses/mit/" target="_blank"><img src="screenshots/badges/license-MIT.svg" height="28px" /></a>&nbsp;&nbsp;
-<img src="screenshots/badges/Flutter-3.svg" height="28px" />&nbsp;&nbsp;
-<img src="screenshots/badges/dart-null_safety-blue.svg" height="28px"/>
 
-# Widget of The Day
+# My Documentation
 
-<img align="right" src="assets/playstore.png" height="200"></img>
-Introduction to flutter widgets: This repo will teach you some of the common widgets that are available in flutter SDK, & shows you how to use them for your UI design.<br>
+My Private Documentation
+<br>
 Playlist URL:
 
 1. [YouTube](https://www.youtube.com/watch?v=X47zIAGIJNE&list=PLlvRDpXh1Se5LTJZDrUF9h1_1AT4Raxjd)
 2. [YouTube](https://www.youtube.com/watch?v=FZiw9MWLlys) [LinearGradient]
 3. [YouTube](https://www.youtube.com/watch?v=pDnfJvh7uzc) [Card]
-4. [YouTube](https://www.youtube.com/watch?v=8QdLBQhnHAQ&t=457s) [Clipper]
-5. [YouTube](https://www.youtube.com/watch?v=1ToqYMSnNhA) [CustomPaint]
-6. [YouTube](https://www.youtube.com/watch?v=n2Dav9ONJsY) [DataTable]
-7. [YouTube](https://www.youtube.com/watch?v=GsmP-NzXXa0) [Hero_Animation]
-8. [YouTube](https://www.youtube.com/watch?v=M9J-JJOuyE0) [Stepper_To_SelectableText]
-9. [YouTube](https://www.youtube.com/watch?v=xuatM4pZkNk&list=LL&index=2) [ClipPath (Bezier Curves)]
-10. [YouTube](https://www.youtube.com/watch?v=utrvu-eow6U) [InheritedWidget]
 
 ## Widgets List:
 
 1. [Container](/lib/1_container/container.dart) > Simple intro > Neumorphic design
 2. [Expanded](/lib/2_expanded/expanded.dart) > flux > layout change inside Column & Row
-3. [Column](/lib/3_column&row/column.dart) > mainAxisAlignment & crossAxisAlignment<br>
-   [Row](/lib/3_column&row/row.dart) > alignment
-4. [ListView](/lib/4_listview&builder/listview.dart) > Builder > Instagram UI design
-5. [SingleChildScrollView](/lib/5_single_child_scroll_view/single_child_scroll_view.dart) > scrollDirection > padding > physics
-6. [Image.Asset](/lib/6_image.asset/image_asset.dart) > fit (BoxFit.cover) > place it inside a Container widget for rounded corners
-7. [Gridview](/lib/7_gridview&builder/gridview.dart) > Builder > crossAxisCount (no. of box in the horizontal)
-8. [GestureDetector](/lib/8_gesturedetector/gesturedetector.dart) > onTap:()=>{'action'} > Keep functional logic separated from UI
-9. [BottomNavBar](/lib/9_bottom-nav_bar/bottomnavbar.dart) > StateStatefulWidget > type: BottomNavigationBarType.fixed > List of pages
-10. [AppBar](/lib/10_appbar/appbar.dart) > backgroundColor: Colors.transparent > leading (left positioned)> actions (right positioned)
-11. [Drawer](/lib/11_drawer/drawer.dart) > Always in ListView > DrawerHeader > ListTile > endDrawer (drawer on right side)
-12. [SliverAppBar](/lib/12_sliver-appbar/sliverappbar.dart) > CustomScrollView > SliverAppBar > expandedHeight > SliverToBoxAdapter <br>
-    Property of SliverAppBar: flexibleSpace > floating (default 'false') > pinned (default 'false')
-13. [TabBar](/lib/13_tabbar/tabbar.dart) > wrap Scaffold with 'DefaultTabController' > length (no. of items) > TabBar <br>
-    TabBarView > Container > wrap TabBarView with 'Expanded' for Container size
-14. [AnimatedContainer](/lib/14_animated-container/animatedcontainer.dart) > GestureDetector > onTap (activate animation) > duration (time to execute animation in 'second') > Container > Alignment
-15. [MediaQuery](/lib/15_media_query/mediaquery.dart) > Height > Width > Aspect Ratio > Orientation
-16. [AlertDialog](/lib/16_alert_dialog/alertdialog.dart) > MaterialButton > onPressed:\_showDialog > AlertDialog(title, content, actions) > CupertinoAlertDialog (for iOS device)
-17. [Text](/lib/17_text&styling/text_n_styling.dart) > style > TextStyle > fontStyle: FontStyle.italic > fontWeight > theme (for setting a default style)
-18. [RichText](/lib/18_rich_text/richtext.dart) > TextSpan > default style > children > multiple 'TextSpan' widgets
-19. [Timer](/lib/19_timer/timer.dart) > StatefulWidget > Text > MaterialButton > onPressed: \_startCountDown > Timer.periodic
-20. [PageView](/lib/20_pageview/pageview.dart) > controller > scrollDirection: Axis.vertical > different Post pages
-21. [Stack](/lib/21_stack/stack.dart) > alignment: Alignment.center (default Alignment.topLeft)
-22. [TextField](/lib/22_textfield/textfield.dart) > StatefulWidget > \_textController > TextField > controller: \_textController > decoration > onPressed > suffixIcon > \_textController.clear() > Expanded > userPost
-23. [AnimatedIcon](/lib/23_animated_icon/animated_icon.dart) > StatefulWidget > with SingleTickerProviderStateMixin > late AnimationController \_animationController > Read the code
-24. [Slider](/lib/24_slider/slider.dart) > StatefulWidget > Slider(value: value, onChanged: onChanged) > Many color parameters of the Slider widget
-25. [DatePicker](/lib/25_date_picker/date_picker.dart) > StatefulWidget > DateTime variable > \_showDatePicker > Read the code
-26. [TimePicker](/lib/26_time_picker/time_picker.dart) > StatefulWidget > TimeOfDay variable > \_showTimePicker > Read the code
-27. [ListWheelScrollView](/lib/27_listwheelscrollview/listwheelscrollview.dart) > StatefulWidget > itemExtent > perspective > diameterRatio > physics: const FixedExtentScrollPhysics() > onSelectedItemChanged > Read the code
-28. [LinearGradient](/lib/28_lineargradient/lineargradient.dart) > Container > decoration > BoxDecoration > gradient > LinearGradient
-29. [ElevatedButton](/lib/29_elevated_button/elevated_button.dart) > style > ElevatedButton.styleFrom > primary: Colors.blue <br>
-    [OutlinedButton](/lib/29_elevated_button/elevated_button.dart)
-30. [FloatingActionButton](/lib/30_floating_action_button/floating_action_button.dart)
-31. [RawMaterialButton](/lib/31_raw_material_button/raw_material_button.dart) > Use for custom fancy button
-32. [IconButton](/lib/32_icon_button/iconbutton.dart)
-33. [Navigator](/lib/33_navigator/navigator.dart) > initialRoute > ElevatedButton > Navigator.pushNamed(context, '/first') > Navigator.pop(context)
-34. [Card](/lib/34_card/card.dart) > shape: RoundedRectangleBorder > borderRadius: BorderRadius.circular(20) > Column > children[] > shadowColor > elevation
-35. [Clipper](/lib/35_clipper/clipper.dart) > Custom Clipper > Quadratic Bezier Curve
-36. [RotatedBox](/lib/36_rotated_box/rotated_box.dart) > quarterTurns: 3 > Each quarterTurns is ≡ 90°
-37. [Transform](/lib/37_transform/transform.dart) > origin > transform
-38. [Positioned](/lib/38_positioned/positioned.dart) > Stack > alignment > Positioned > 2 properties at a time
-39. [CustomPaint](/lib/39_custom_paint/custom_paint.dart) > Watch the video
-40. [ClipOval](/lib/40_clipoval/clipoval.dart) > Image.asset > height & width should be same > fit: BoxFit.cover
-41. [ClipRRect](/lib/41_cliprrect/cliprrect.dart) > borderRadius > Image.asset
-42. [ClipRect](/lib/42_cliprect/cliprect.dart) > Image.asset
-43. [ClipPath](/lib/43_clippath/clippath.dart) > ClipPath > clipper: CustomClipPath() > Path getClip(Size size){} > shouldReclip(CustomClipper< Path> oldClipper)
-44. [Radial & Sweep Gradient](/lib/44_radial_gradient/radial_n_sweep_gradient.dart) > Container > decoration > gradient> RadialGradient / SweepGradient
-45. [StatefulWidget](/lib/45_stateful_widget/stateful_widget.dart) > createState() > initState() > didChangeDependencies() > didUpdateWidget() > deactivate() > dispose() > setState((){'actions'})
-46. [Table](/lib/46_table/table.dart) > border > columnWidths > textDirection > children > TableRow > children
-47. [DataTable](/lib/47_data_table/data_table.dart) > border > columnSpacing > onSelectAll > sortColumnIndex > sortAscending > columns > rows
-48. [Placeholder](/lib/48_placeholder/placeholder.dart) > fallbackHeight > strokeWidth > color > strokeWidth
-49. [GestureDetector & InkWell](/lib/49_gesturedect_&_inkwell/gesturedect_n_inkwell.dart) > GestureDetector > onTap | InkWell > OnTap
-50. [Material](/lib/50_material/material.dart) > It can manipulate some properties of it's child widget
-51. [Switches](/lib/51_switches/switches.dart) > ListTile > leading > Switch / Checkbox / Radio > value > onChanged > groupValue (only for Radio)
-52. [DropDown&Popup](/lib/52_dropdown_&_popupmenu/dropdown_n_popupmenu.dart) > See the code
-53. [HeroAnimation](/lib/53_hero_animation/hero_animation.dart) > tag: item in both pages
-54. [AboutDialog](/lib/54_aboutdialog/aboutdialog.dart) > ElevatedButton > onPressed > showAboutDialog
-55. [Stepper](/lib/55_stepper/stepper.dart) > int \_currentStep = 0 > Stepper > Step (with title: & content:) > onStepTapped > currentStep: \_currentStep > onStepContinue > onStepCancel
-56. [FittedBox](/lib/56_fitted_box/fitted_box.dart) > Fit text inside a container
-57. [show Search](/lib/57_show_search/show_search.dart) > AppBar > actions > IconButton > onPressed: () {showSearch()}
-58. [.adaptive](/lib/58_.adaptive/adaptive.dart) > Slider.adaptive > SwitchListTile.adaptive > Switch.adaptive > Icon(Icons.adaptive.share) > CircularProgressIndicator.adaptive()
-59. [Scrollbar](/lib/59_scrollbar/scrollbar.dart) > isAlwaysShown: true > thickness: 10 > ListView.builder / GridView.builder
-60. [ChoiceChip](/lib/60_choice_chip/choice_chip.dart) > ChoiceChip > avatar > label > selected > onSelected
-61. [Wrap](/lib/61_wrap/wrap.dart) > Wrap > children:
-62. [ExpansionTile](/lib/62_expansion_tile/expansion_tile.dart) > title > children: > ListTile
-63. [RangeSlider](/lib/63_range_slider/range_slider.dart) > values > divisions > labels > onChanged:
-64. [showModelBottomSheet](/lib/64_show_modelbottomsheet/show_modelbottomsheet.dart) > showModalBottomSheet > context: context, > builder: (BuildContext context) > return > SizedBox
-65. [AnimatedCrossFade](/lib/65_animated_cross_fade/animated_cross_fade.dart) > firstChild > secondChild > crossFadeState > duration
-66. [Flexible](/lib/66_flexible/flexible.dart) > flex > fit
-67. [Spacer](/lib/67_spacer/spacer.dart) > flex: 1
-68. [GridPaper](/lib/68_grid_paper/grid_paper.dart) > color: Colors.deepPurple
-69. [InteractiveViewer](/lib/69_interactive_viewer/interactive_viewer.dart) > maxScale > child: Image.asset()
-70. [CheckboxListTile](/lib/70_checkbox_list_tile/checkbox_list_tile.dart) > title > subtitle > value
-71. [SelectableText](/lib/71_selectable_text/selectable_text.dart) > SelectableText > see code
-72. [AnimatedPadding](/lib/72_animated_padding/animated_padding.dart) > padding: EdgeInsets.all(padValue) > duration
-73. [RefreshIndicator](/lib/73_refresh_indicator/refresh_indicator.dart) > color > backgroundColor > onRefresh
-74. [ImageFiltered](/lib/74_image_filtered/image_filtered.dart) > import 'dart:ui'; > ImageFiltered > imageFilter: ImageFilter.blur(sigmaX: 8),
-75. [AspectRatio](/lib/75_aspect_ratio/aspect_ratio.dart) > aspectRatio: 3 / 2 > child
-76. [ToggleButton](/lib/76_toggle_button/toggle_button.dart) > children:[] > isSelected > onPressed
-77. [Physical Model](/lib/77_physical_model/physical_model.dart) > color > elevation
-78. [Align](/lib/78_align/align.dart) > Container > child: > Align > alignment: Alignment(0.60, -0.80)
-79. [SafeArea](/lib/79_safe_area/safe_area.dart) > Scaffold > body: > SafeArea
-80. [PagerouteBuilder](/lib/80_pageroute_builder/pageroute_builder.dart) > check code
-81. [Draggable](/lib/81_draggable/draggable.dart) > DragTarget<Color> > onAccept > builder
-82. [BackdropFilter](/lib/82_backdrop_filter/backdrop_filter.dart) > Stack > Image.asset > Positioned > BackdropFilter > ImageFilter.blur()
-83. [ReorderableListView](/lib/83_reorderable_list_view/reorderable_list_view.dart) > itemCount > onReorder > itemBuilder
-84. [FadeTransition](/lib/84_fade_transition/fade_transition.dart) > FadeTransition > opacity: \_animation!
-85. [CircleAvatar](/lib/85_circle_avatar/circle_avatar.dart) > radius: > backgroundImage: AssetImage()
-86. [Tooltip](/lib/86_tooltip/tooltip.dart) > message: > verticalOffset: > height: > Child:
-87. [Visibility](/lib/87_visibility/visibility.dart) > visible: isVisible > child: Image.asset('')
-88. [IndexedStack](/lib/88_indexed_stack/indexed_stack.dart) > index: index > children:
-89. [Navigator 2.0](/lib/89_navigator_2.0/navigator_2.0.dart) > See code
-90. [Null Aware Operators](/lib/90_null_aware_operators/null_aware_operators.dart) > See code
-91. [Cascade Operator](/lib/91_cascade_operator/cascade_operator.dart) > See code
-92. [Inherited Widget](/lib/92_inherited_widget/inherited_widget.dart) > See code
-93. [Fractionally Sizedbox](/lib/93_fractionally_sizedbox/fractionally_sizedbox.dart)
-94. [Constrained Box](/lib/94_constrained_box/constrained_box.dart) > See code
-95. [Cupertino Search](/lib/95_cupertino_search_text_field/cupertino_search_text_field.dart) > late TextEditingController textController > CupertinoSearchTextField > placeholder > controller
-96. [Stateful Builder](/lib/96_stateful_builder/stateful_builder.dart) > builder: (context, internalState) > internalState(() { counter++;})
-97. [Layout Builder](/lib/97_layout_builder/layout_builder.dart) > builder: (BuildContext context, BoxConstraints constraints){ return }
-98. [Orientation Builder](/lib/98_orientation_builder/orientation_builder.dart) > builder: (context, orientation){}
-99. [Platform Detect](/lib/99_platform_detect/platform_detect.dart) > import 'dart:io' show Platform;
-100. [FutureBuilder](/lib/100_future_builder/future_builder.dart) > FutureBuilder > future: getData() > builder
-101. [StreamBuilder](/lib/101_stream_builder/stream_builder.dart) > StreamBuilder > stream > initialData > builder
-102. [ChangeNotifier](/lib/102_change_notifier/change_notifier.dart) > CNController extends ChangeNotifier > notifyListeners()
-103. [ValueNotifier](/lib/103_value_notifier/value_notifier.dart) > final ValueNotifier< int> count = ValueNotifier< int>(0) > ValueListenableBuilder()
-104. [InheritedNotifier](/lib/104_inherited_notifier/inherited_notifier.dart) > Read code
+
 
 ## Screenshots:
 
