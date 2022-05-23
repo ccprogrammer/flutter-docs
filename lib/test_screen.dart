@@ -12,7 +12,7 @@ import 'package:my_documentation/docs/carousel/CarouselCommon.dart';
 import 'package:my_documentation/docs/comment/CommentCommon.dart';
 import 'package:my_documentation/docs/details/DetailCommon.dart';
 import 'package:my_documentation/docs/divider/DividerDot.dart';
-import 'package:my_documentation/docs/hotizontal_list/HorizontalListCard.dart';
+import 'package:my_documentation/docs/horizontal_list/HorizontalListCard.dart';
 import 'package:my_documentation/docs/image/ImageCircle.dart';
 import 'package:my_documentation/docs/loading/ShimmerCard.dart';
 import 'package:my_documentation/docs/loading/ShimmerOverview.dart';
