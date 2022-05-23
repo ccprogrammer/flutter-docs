@@ -14,6 +14,7 @@ import 'package:my_documentation/docs/details/DetailCommon.dart';
 import 'package:my_documentation/docs/divider/DividerDot.dart';
 import 'package:my_documentation/docs/horizontal_list/HorizontalListCard.dart';
 import 'package:my_documentation/docs/image/ImageCircle.dart';
+import 'package:my_documentation/docs/loading/LoadingShimmers.dart';
 import 'package:my_documentation/docs/loading/ShimmerCard.dart';
 import 'package:my_documentation/docs/loading/ShimmerOverview.dart';
 import 'package:my_documentation/docs/loading/ShimmerTile.dart';
@@ -38,7 +39,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: TextFieldNoBox(),
+            child: LoadingShimmers(child: Skeleton(width: 100,height:100),),
           ),
         ],
       ),
