@@ -42,7 +42,7 @@ class TestScreen extends StatelessWidget {
           Center(
             child: GestureDetector(
               onTap: () {
-                showSnackBar(context,
+                SnackBarCommon(context,
                     text: 'Hi this is my snackbar where is yours ?');
               },
               child: Skeleton(
