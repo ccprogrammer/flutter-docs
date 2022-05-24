@@ -228,7 +228,7 @@ Small Code Documentations
         <td>
         <div style="text-align: center;">
             <img src="docs_image/SnackBarCommon.png" height="350px"/>
-            <p><a href="lib/docs/modal_bottom_sheet/SnackBarCommon.dart" target="_blank">SnackBarCommon</a></p>
+            <p><a href="lib/docs/snackbar/SnackBarCommon.dart" target="_blank">SnackBarCommon</a></p>
         </div>
     </td>
   </tr>  
