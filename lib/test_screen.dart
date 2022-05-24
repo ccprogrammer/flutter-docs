@@ -23,6 +23,7 @@ import 'package:my_documentation/docs/rating_review/AddReviewBox.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
+import 'package:my_documentation/docs/snackbar/SnackBarCommon.dart';
 import 'package:my_documentation/docs/text/ExpandableText.dart';
 import 'package:my_documentation/docs/text_field/TextFieldCommon.dart';
 import 'package:my_documentation/docs/text_field/TextFieldNoBox.dart';
@@ -39,7 +40,17 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: LoadingShimmers(child: Skeleton(width: 100,height:100),),
+            child: GestureDetector(
+              onTap: () {
+                showSnackBar(context,
+                    text: 'Hi this is my snackbar where is yours ?');
+              },
+              child: Skeleton(
+                width: 40,
+                height: 40,
+                radius: 40,
+              ),
+            ),
           ),
         ],
       ),
