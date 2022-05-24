@@ -6,7 +6,7 @@ SnackBarCommon(context, {String? text, TextStyle? style, Color? color}) {
     backgroundColor: color ?? Colors.blue,
     behavior: SnackBarBehavior.floating,
     content: Text(
-      text ?? 'Movie has been added to favorites',
+      text ?? 'Set your title',
       textAlign: TextAlign.center,
       style: style ?? null,
     ),
