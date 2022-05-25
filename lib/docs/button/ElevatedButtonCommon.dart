@@ -12,7 +12,7 @@ Widget ElevatedButtonCommon() {
             width: 4,
           ),
           primary: Colors.white,
-          shape: StadiumBorder(),
+          shape: StadiumBorder(), // CircleBorder() is Circle
           elevation: 0),
       child: Text(
         'Custom Elevated Button',
