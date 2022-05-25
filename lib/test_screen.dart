@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_documentation/docs/app_bar/AppBarListTile.dart';
 import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
 import 'package:my_documentation/docs/app_bar/AppBarSearch.dart';
+import 'package:my_documentation/docs/button/ElevatedButtonCommon.dart';
 import 'package:my_documentation/docs/button/TextButtonCommon.dart';
 import 'package:my_documentation/docs/card/CardList.dart';
 import 'package:my_documentation/docs/card/CardWithImage.dart';
@@ -40,17 +41,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: GestureDetector(
-              onTap: () {
-                SnackBarCommon(context,
-                    text: 'Hi this is my snackbar where is yours ?');
-              },
-              child: Skeleton(
-                width: 40,
-                height: 40,
-                radius: 40,
-              ),
-            ),
+            child: ElevatedButtonCommon(),
           ),
         ],
       ),
