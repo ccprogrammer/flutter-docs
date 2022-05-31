@@ -57,12 +57,6 @@ Small Code Documentations
             <img src="docs_image/CardWithMap.png" height="350px"/>
             <p><a href="lib/docs/card/CardWithMap.dart" target="_blank">CardWithMap</a></p>
         </div>
-    </td>
-         <td>
-        <div style="text-align: center;">
-            <img src="docs_image/CardWithShadow.png" height="350px"/>
-            <p><a href="lib/docs/card/CardWithShadow.dart" target="_blank">CardWithShadow</a></p>
-        </div>
     </td>        
   </tr>  
   <tr>
