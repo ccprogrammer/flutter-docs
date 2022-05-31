@@ -4,6 +4,7 @@ import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
 import 'package:my_documentation/docs/app_bar/AppBarSearch.dart';
 import 'package:my_documentation/docs/button/ElevatedButtonCommon.dart';
 import 'package:my_documentation/docs/button/TextButtonCommon.dart';
+import 'package:my_documentation/docs/card/CardCommon.dart';
 import 'package:my_documentation/docs/card/CardList.dart';
 import 'package:my_documentation/docs/card/CardWithImage.dart';
 import 'package:my_documentation/docs/card/CardWithMap.dart';
@@ -41,7 +42,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: ElevatedButtonCommon(),
+            child: CardCommon(),
           ),
         ],
       ),

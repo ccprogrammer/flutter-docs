@@ -34,6 +34,12 @@ Small Code Documentations
   </tr>
 <!--  Card  -->
   <tr>
+   <td>
+        <div style="text-align: center;">
+            <img src="docs_image/CardCommon.png" height="350px"/>
+            <p><a href="lib/docs/card/CardCommon.dart" target="_blank">CardCommon</a></p>
+        </div>
+    </td>   
         <td>
         <div style="text-align: center;">
             <img src="docs_image/CardList.png" height="350px"/>
@@ -196,11 +202,21 @@ Small Code Documentations
         </div>
     </td>
   </tr>
+  <!-- Horizontal List -->
     <tr>
         <td>
         <div style="text-align: center;">
             <img src="docs_image/HorizontalListCard.png" height="350px"/>
             <p><a href="lib/docs/horizontal_list/HorizontalListCard.dart" target="_blank">HorizontalListCard</a></p>
+        </div>
+    </td>
+  </tr>
+  <!-- GridView -->
+    <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/StaggeredGridViewCommon.png" height="350px"/>
+            <p><a href="lib/docs/horizontal_list/StaggeredGridViewCommon.dart" target="_blank">StaggeredGridViewCommon</a></p>
         </div>
     </td>
   </tr>
