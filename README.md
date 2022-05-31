@@ -39,13 +39,7 @@ Small Code Documentations
             <img src="docs_image/CardCommon.png" height="350px"/>
             <p><a href="lib/docs/card/CardCommon.dart" target="_blank">CardCommon</a></p>
         </div>
-    </td>   
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/CardList.png" height="350px"/>
-            <p><a href="lib/docs/card/CardList.dart" target="_blank">CardList</a></p>
-        </div>
-    </td>
+    </td>         
        <td>
         <div style="text-align: center;">
             <img src="docs_image/CardWithImage.png" height="350px"/>
@@ -58,8 +52,6 @@ Small Code Documentations
             <p><a href="lib/docs/card/CardWithMap.dart" target="_blank">CardWithMap</a></p>
         </div>
     </td>        
-  </tr>  
-  <tr>
    <td>
         <div style="text-align: center;">
             <img src="docs_image/CardWithStretchHeaderImage.png" height="350px"/>
