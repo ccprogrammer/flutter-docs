@@ -63,14 +63,16 @@ Small Code Documentations
             <img src="docs_image/CardWithShadow.png" height="350px"/>
             <p><a href="lib/docs/card/CardWithShadow.dart" target="_blank">CardWithShadow</a></p>
         </div>
-    </td>
-         <td>
+    </td>        
+  </tr>  
+  <tr>
+   <td>
         <div style="text-align: center;">
             <img src="docs_image/CardWithStretchHeaderImage.png" height="350px"/>
             <p><a href="lib/docs/card/CardWithStretchHeaderImage.dart" target="_blank">CardWithStretchHeaderImage</a></p>
         </div>
     </td>
-  </tr>  
+  </tr>
 <!--   Loading -->
    <tr>
         <td>
@@ -97,7 +99,10 @@ Small Code Documentations
             <p><a href="lib/docs/loading/ShimmerTile.dart" target="_blank">ShimmerTile</a></p>
         </div>
     </td>
-    <td>
+    
+  </tr>
+   <tr>
+  <td>
         <div style="text-align: center;">
             <img src="docs_image/Skeleton.png" height="350px"/>
             <p><a href="lib/docs/loading/Skeleton.dart" target="_blank">Skeleton</a></p>
@@ -216,7 +221,7 @@ Small Code Documentations
         <td>
         <div style="text-align: center;">
             <img src="docs_image/StaggeredGridViewCommon.png" height="350px"/>
-            <p><a href="lib/docs/horizontal_list/StaggeredGridViewCommon.dart" target="_blank">StaggeredGridViewCommon</a></p>
+            <p><a href="lib/docs/grid_view/StaggeredGridViewCommon.dart" target="_blank">StaggeredGridViewCommon</a></p>
         </div>
     </td>
   </tr>
@@ -245,6 +250,7 @@ Small Code Documentations
         </div>
     </td>
   </tr>  
+  <!-- SnackBar -->
    <tr>
         <td>
         <div style="text-align: center;">
@@ -253,4 +259,13 @@ Small Code Documentations
         </div>
     </td>
   </tr>  
+  <!-- AlertDialog -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/AlertDialogCommon.png" height="350px"/>
+            <p><a href="lib/docs/alert_dialog/AlertDialogCommon.dart" target="_blank">AlertDialogCommon</a></p>
+        </div>
+    </td>
+  </tr> 
 </table>
