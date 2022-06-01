@@ -122,15 +122,7 @@ Small Code Documentations
         </div>
     </td>
   </tr>
-   <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/ExpandableText.png" height="350px"/>
-            <p><a href="lib/docs/text/ExpandableText.dart" target="_blank">ExpandableText</a></p>
-        </div>
-    </td>   
-  </tr>
-  <!--   Button -->
+    <!--   Button -->
    <tr>
         <td>
         <div style="text-align: center;">
@@ -150,6 +142,15 @@ Small Code Documentations
             <p><a href="lib/docs/button/ButtonCircleIcon.dart" target="_blank">ButtonCircleIcon</a></p>
         </div>
     </td>
+  </tr>
+  <!-- Text -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ExpandableText.png" height="350px"/>
+            <p><a href="lib/docs/text/ExpandableText.dart" target="_blank">ExpandableText</a></p>
+        </div>
+    </td>   
   </tr>
   <!--   Text Field -->
    <tr>
