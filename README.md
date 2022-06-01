@@ -130,22 +130,7 @@ Small Code Documentations
         </div>
     </td>   
   </tr>
-  <!--   Text Field -->
-   <tr>
-        <td>
-        <div style="text-align: center;">
-            <img src="docs_image/TextFieldCommon.png" height="350px"/>
-            <p><a href="lib/docs/text_field/TextFieldCommon.dart" target="_blank">TextFieldCommon</a></p>
-        </div>
-    </td>  
-  <td>
-        <div style="text-align: center;">
-            <img src="docs_image/TextFieldNoBox.png" height="350px"/>
-            <p><a href="lib/docs/text_field/TextFieldNoBox.dart" target="_blank">TextFieldNoBox</a></p>
-        </div>
-    </td>   
-  </tr>
-<!--   Button -->
+  <!--   Button -->
    <tr>
         <td>
         <div style="text-align: center;">
@@ -165,6 +150,21 @@ Small Code Documentations
             <p><a href="lib/docs/button/ButtonCircleIcon.dart" target="_blank">ButtonCircleIcon</a></p>
         </div>
     </td>
+  </tr>
+  <!--   Text Field -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextFieldCommon.png" height="350px"/>
+            <p><a href="lib/docs/text_field/TextFieldCommon.dart" target="_blank">TextFieldCommon</a></p>
+        </div>
+    </td>  
+  <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextFieldNoBox.png" height="350px"/>
+            <p><a href="lib/docs/text_field/TextFieldNoBox.dart" target="_blank">TextFieldNoBox</a></p>
+        </div>
+    </td>   
   </tr>
 <!--  Carousel  -->
     <tr>
