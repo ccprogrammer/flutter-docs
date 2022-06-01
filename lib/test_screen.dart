@@ -15,6 +15,7 @@ import 'package:my_documentation/docs/carousel/CarouselCommon.dart';
 import 'package:my_documentation/docs/comment/CommentCommon.dart';
 import 'package:my_documentation/docs/details/DetailCommon.dart';
 import 'package:my_documentation/docs/divider/DividerDot.dart';
+import 'package:my_documentation/docs/grid_view/StaggeredGridViewCommon.dart';
 import 'package:my_documentation/docs/horizontal_list/HorizontalListCard.dart';
 import 'package:my_documentation/docs/image/ImageCircle.dart';
 import 'package:my_documentation/docs/loading/LoadingShimmers.dart';
@@ -38,7 +39,7 @@ class TestScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      // appBar: AppBarSearch(),
+      // appBar: AppBarNormal(),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -47,6 +48,9 @@ class TestScreen extends StatelessWidget {
           ),
         ],
       ),
+      // body: StaggeredGridViewCommon(
+      //   child: CardCommon(),
+      // ),
     );
   }
 }
