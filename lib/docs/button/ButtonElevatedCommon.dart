@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget ElevatedButtonCommon() {
+Widget ButtonElevatedCommon() {
   return Container(
     height: 48,
     child: ElevatedButton(

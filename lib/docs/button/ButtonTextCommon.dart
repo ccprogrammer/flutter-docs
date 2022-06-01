@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget TextButtonCommon() {
+Widget ButtonTextCommon() {
   return Container(
     height: 48,
     margin: EdgeInsets.fromLTRB(24, 24, 24, 24),

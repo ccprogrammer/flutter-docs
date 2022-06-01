@@ -3,8 +3,9 @@ import 'package:my_documentation/docs/alert_dialog/AlertDialogCommon.dart';
 import 'package:my_documentation/docs/app_bar/AppBarListTile.dart';
 import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
 import 'package:my_documentation/docs/app_bar/AppBarSearch.dart';
-import 'package:my_documentation/docs/button/ElevatedButtonCommon.dart';
-import 'package:my_documentation/docs/button/TextButtonCommon.dart';
+import 'package:my_documentation/docs/button/ButtonCircleIcon.dart';
+import 'package:my_documentation/docs/button/ButtonElevatedCommon.dart';
+import 'package:my_documentation/docs/button/ButtonTextCommon.dart';
 import 'package:my_documentation/docs/card/CardCommon.dart';
 import 'package:my_documentation/docs/card/CardList.dart';
 import 'package:my_documentation/docs/card/CardWithImage.dart';
@@ -42,16 +43,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: GestureDetector(
-              onTap: () {
-                AlertDialogCommon(context);
-              },
-              child: Skeleton(
-                radius: 60,
-                height: 60,
-                width: 60,
-              ),
-            ),
+            child: ButtonCircleIcon(),
           ),
         ],
       ),
