@@ -14,10 +14,6 @@ class CardCommon extends StatelessWidget {
       ),
       child: Container(
         width: 160,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: Colors.white,
-        ),
         child: Material(
           color: Colors.transparent,
           child: InkWell(
