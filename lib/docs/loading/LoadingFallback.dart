@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loading_overlay/loading_overlay.dart';
+//   loading_overlay: ^0.3.0
 
 class LoadingFallback extends StatelessWidget {
   LoadingFallback(
@@ -18,8 +19,8 @@ class LoadingFallback extends StatelessWidget {
     return LoadingOverlay(
       isLoading: isLoading,
       color: Colors.black87,
-      child: child,
       progressIndicator: LoadingOverlayWidget(label: loadingLabel),
+      child: child,
     );
   }
 }

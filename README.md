@@ -94,6 +94,12 @@ Small Code Documentations
             <p><a href="lib/docs/loading/Skeleton.dart" target="_blank">Skeleton</a></p>
         </div>
     </td>
+     <td>
+        <div style="text-align: center;">
+            <img src="docs_image/LoadingFallback.png" height="350px"/>
+            <p><a href="lib/docs/loading/LoadingFallback.dart" target="_blank">LoadingFallback</a></p>
+        </div>
+    </td>
   </tr>
   <!--   Rating & Review -->
     <tr>
