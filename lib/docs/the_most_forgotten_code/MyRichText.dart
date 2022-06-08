@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 Widget MyRichText() {
@@ -5,19 +6,19 @@ Widget MyRichText() {
     text: TextSpan(
       children: [
         TextSpan(
-          text: '5.0',
+          text:
+              'Tunjukkan kode ini kepada kontraktor Anda. Kode akan diperbarui setiap 5 menit sekali. ',
           style: TextStyle(
-            color: Colors.red,
-            fontSize: 15,
-            fontWeight: FontWeight.bold,
+            color: Colors.black,
           ),
         ),
         TextSpan(
-          text: '/5',
+          text: 'Pelajari lebih lanjut',
           style: TextStyle(
+            fontWeight: FontWeight.bold,
             color: Colors.red,
-            fontSize: 12,
           ),
+          recognizer: TapGestureRecognizer()..onTap = () => print('click'),
         ),
       ],
     ),
