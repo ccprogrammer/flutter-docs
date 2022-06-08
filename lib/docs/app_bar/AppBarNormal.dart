@@ -5,8 +5,16 @@ PreferredSizeWidget AppBarNormal() {
     iconTheme: IconThemeData(color: Colors.black87),
     backgroundColor: Colors.white,
     elevation: 0,
+    leading: IconButton(
+      onPressed: () {},
+      color: Colors.black,
+      iconSize: 32,
+      icon: Icon(
+        Icons.chevron_left,
+      ),
+    ),
     title: Text(
-      'AppBar Title',
+      'Title',
       style: TextStyle(
         fontWeight: FontWeight.w600,
         color: Colors.black,
