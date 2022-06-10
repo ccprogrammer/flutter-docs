@@ -12,7 +12,7 @@ Small Code Documentations
 
 </br>
 
-Logic
+Logic / Function
 
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
 

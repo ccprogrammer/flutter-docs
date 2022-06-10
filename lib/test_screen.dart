@@ -23,6 +23,7 @@ import 'package:my_documentation/docs/loading/ShimmerCard.dart';
 import 'package:my_documentation/docs/loading/ShimmerOverview.dart';
 import 'package:my_documentation/docs/loading/ShimmerTile.dart';
 import 'package:my_documentation/docs/loading/Skeleton.dart';
+import 'package:my_documentation/docs/modal_bottom_sheet/showCustomModal.dart';
 import 'package:my_documentation/docs/rating_review/AddReviewBox.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
@@ -42,14 +43,40 @@ class TestScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       // appBar: AppBarNormal(),
+     
+     
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: ListTileCommon2(),
+            child: Container(
+              height: 48,
+              child: ElevatedButton(
+                onPressed: () {
+                  showCustomModal(context: context);
+                },
+                style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 20),
+                    side: BorderSide(
+                      color: Colors.blue,
+                      width: 4,
+                    ),
+                    primary: Colors.white,
+                    shape: StadiumBorder(), // CircleBorder() is Circle
+                    elevation: 0),
+                child: Text(
+                  'Custom Function',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                  ),
+                ),
+              ),
+            ),
           ),
         ],
       ),
+      
       // body: StaggeredGridViewCommon(
       //   child: CardCommon(),
       // ),

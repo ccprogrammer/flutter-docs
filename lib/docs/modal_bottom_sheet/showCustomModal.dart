@@ -84,53 +84,50 @@ void showCustomModal({
               margin: EdgeInsets.fromLTRB(24, 24, 24, 0),
               width: double.infinity,
               height: 48,
-              child: GestureDetector(
-                onTap: () {},
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                    color: Colors.white,
-                    border: Border.all(
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                    side: BorderSide(
                       color: Colors.red,
                       width: 1,
                     ),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Lanjutkan menggunakan bahasa Indonesia",
-                      style: TextStyle(
-                        color: Colors.red,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    primary: Colors.white,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
                     ),
+                    elevation: 0),
+                child: Text(
+                  'Lanjutkan menggunakan bahasa Indonesia',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.red,
                   ),
                 ),
               ),
             ),
+
             // Sheet Button 2
             Container(
               margin: EdgeInsets.fromLTRB(24, 12, 24, 24),
               width: double.infinity,
               height: 48,
-              child: GestureDetector(
-                onTap: () {},
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                    color: Colors.white,
-                    border: Border.all(
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                    side: BorderSide(
                       color: Colors.red,
                       width: 1,
                     ),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "Continue in English",
-                      style: TextStyle(
-                        color: Colors.red,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    primary: Colors.white,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
                     ),
+                    elevation: 0),
+                child: Text(
+                  'Continue in English',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.red,
                   ),
                 ),
               ),
