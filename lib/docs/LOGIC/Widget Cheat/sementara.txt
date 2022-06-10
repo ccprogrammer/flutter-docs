@@ -1,0 +1,6 @@
+- Trimline
+- DottedLine
+- DateFormat("EEE, dd MMM yyyy").format
+- String base64Image = _image != null ? base64Encode(_image.readAsBytesSync()) : '';
+- Column(mainAxisSize: MainAxisSize.min, // agar column tingginya sesuai content
+- linear gradient dari sosial media app sampis

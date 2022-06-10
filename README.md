@@ -8,6 +8,15 @@ Small Code Documentations
 4. [MyRichText](lib/docs/the_most_forgotten_code/MyRichText.dart)
 5. [TextButtonNoPadding](lib/docs/the_most_forgotten_code/TextButtonNoPadding.dart)
 6. [ListViewNoTopPadding](lib/docs/the_most_forgotten_code/ListViewNoTopPadding.dart)
+7. [IndexOfListItem](lib/docs/the_most_forgotten_code/IndexOfListItem.dart)
+
+</br>
+
+Logic
+
+1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
+
+
 
 ## Screenshots:
 
@@ -59,6 +68,22 @@ Small Code Documentations
         </div>
     </td>
   </tr>
+
+<!-- List Tile -->
+<tr>
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ListTileCommon.png" height="350px"/>
+            <p><a href="lib/docs/tile/ListTileCommon.dart" target="_blank">ListTileCommon</a></p>
+        </div>
+    </td>
+     <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ListTileCommon2.png" height="350px"/>
+            <p><a href="lib/docs/tile/ListTileCommon2.dart" target="_blank">ListTileCommon2</a></p>
+        </div>
+    </td>
+</tr>
 <!--   Loading -->
    <tr>
         <td>
