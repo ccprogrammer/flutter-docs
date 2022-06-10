@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 
-Widget ButtonElevatedCommon() {
+Widget ButtonElevatedCommon({
+  String text = 'Custom Elevated Button',
+  required Function onPressed,
+}) {
   return Container(
     height: 48,
     child: ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        onPressed();
+      },
       style: ElevatedButton.styleFrom(
           padding: EdgeInsets.symmetric(horizontal: 20),
           side: BorderSide(
@@ -15,7 +20,7 @@ Widget ButtonElevatedCommon() {
           shape: StadiumBorder(), // CircleBorder() is Circle
           elevation: 0),
       child: Text(
-        'Custom Elevated Button',
+        text,
         style: TextStyle(
           fontWeight: FontWeight.bold,
           color: Colors.blue,

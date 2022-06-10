@@ -43,40 +43,52 @@ class TestScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       // appBar: AppBarNormal(),
-     
-     
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: Container(
-              height: 48,
-              child: ElevatedButton(
-                onPressed: () {
-                  showCustomModal(context: context);
-                },
-                style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    side: BorderSide(
-                      color: Colors.blue,
-                      width: 4,
-                    ),
-                    primary: Colors.white,
-                    shape: StadiumBorder(), // CircleBorder() is Circle
-                    elevation: 0),
-                child: Text(
-                  'Custom Function',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.blue,
-                  ),
-                ),
-              ),
+            child: ButtonElevatedCommon(
+              text: 'Press Me',
+              onPressed: () {
+                showCustomModal(context: context);
+              },
             ),
-          ),
+          )
         ],
       ),
-      
+
+      // body: Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Center(
+      //       child: Container(
+      //         height: 48,
+      //         child: ElevatedButton(
+      //           onPressed: () {
+      //             showCustomModal(context: context);
+      //           },
+      //           style: ElevatedButton.styleFrom(
+      //               padding: EdgeInsets.symmetric(horizontal: 20),
+      //               side: BorderSide(
+      //                 color: Colors.blue,
+      //                 width: 4,
+      //               ),
+      //               primary: Colors.white,
+      //               shape: StadiumBorder(), // CircleBorder() is Circle
+      //               elevation: 0),
+      //           child: Text(
+      //             'Custom Function',
+      //             style: TextStyle(
+      //               fontWeight: FontWeight.bold,
+      //               color: Colors.blue,
+      //             ),
+      //           ),
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      // ),
+
       // body: StaggeredGridViewCommon(
       //   child: CardCommon(),
       // ),
