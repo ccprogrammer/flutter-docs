@@ -15,6 +15,7 @@ import 'package:my_documentation/docs/carousel/CarouselCommon.dart';
 import 'package:my_documentation/docs/comment/CommentCommon.dart';
 import 'package:my_documentation/docs/details/DetailCommon.dart';
 import 'package:my_documentation/docs/divider/DividerDot.dart';
+import 'package:my_documentation/docs/dropdown/DropdownCommon.dart';
 import 'package:my_documentation/docs/grid_view/StaggeredGridViewCommon.dart';
 import 'package:my_documentation/docs/horizontal_list/HorizontalListCard.dart';
 import 'package:my_documentation/docs/image/ImageCircle.dart';
@@ -47,12 +48,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: ButtonElevatedCommon(
-              text: 'Press Me',
-              onPressed: () {
-                showCustomModal(context: context);
-              },
-            ),
+            child: DropdownCommon(),
           )
         ],
       ),
