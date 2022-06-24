@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_documentation/docs/LOGIC/CopyMap.dart';
 import 'package:my_documentation/docs/alert_dialog/AlertDialogCommon.dart';
 import 'package:my_documentation/docs/app_bar/AppBarListTile.dart';
 import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
@@ -48,7 +49,11 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: DropdownCommon(),
+            child: ButtonElevatedCommon(
+              onPressed: () {
+                CopyMapLoop().testFunction();
+              },
+            ),
           )
         ],
       ),

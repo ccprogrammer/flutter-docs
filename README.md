@@ -16,6 +16,7 @@ Logic / Function
 
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
+3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
 
 
 
