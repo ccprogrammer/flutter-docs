@@ -30,10 +30,6 @@ class CopyMapLoop {
     },
   ];
 
-  var additionalMap = {
-    'religion': 'Islam',
-  };
-
   var remap = [];
 
   testFunction() {
