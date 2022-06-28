@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+// untuk me remap list baru beserta tambahan key & value pada map
 
 class CopyMap {
   var dummyMap = {

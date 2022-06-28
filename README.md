@@ -17,6 +17,7 @@ Logic / Function
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
+4. [TakeImage](lib/docs/TakeImage)
 
 
 
@@ -132,8 +133,8 @@ Logic / Function
     <tr>
         <td>
         <div style="text-align: center;">
-            <img src="docs_image/AddReviewBox.png" height="350px"/>
-            <p><a href="lib/docs/rating_review/AddReviewBox.dart" target="_blank">AddReviewBox</a></p>
+            <img src="docs_image/TakeImageBox.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/TakeImageBox.dart" target="_blank">TakeImageBox</a></p>
         </div>
     </td>
    <td>

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_documentation/docs/LOGIC/CopyMap.dart';
+import 'package:my_documentation/docs/LOGIC/TakeImage/TakeImage.dart';
 import 'package:my_documentation/docs/alert_dialog/AlertDialogCommon.dart';
 import 'package:my_documentation/docs/app_bar/AppBarListTile.dart';
 import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
@@ -26,7 +27,6 @@ import 'package:my_documentation/docs/loading/ShimmerOverview.dart';
 import 'package:my_documentation/docs/loading/ShimmerTile.dart';
 import 'package:my_documentation/docs/loading/Skeleton.dart';
 import 'package:my_documentation/docs/modal_bottom_sheet/showCustomModal.dart';
-import 'package:my_documentation/docs/rating_review/AddReviewBox.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
@@ -45,50 +45,21 @@ class TestScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       // appBar: AppBarNormal(),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Center(
-            child: ButtonElevatedCommon(
-              onPressed: () {
-                CopyMapLoop().testFunction();
-              },
-            ),
-          )
-        ],
-      ),
-
+      body: TakeImage(),
+    
       // body: Column(
       //   mainAxisAlignment: MainAxisAlignment.center,
       //   children: [
       //     Center(
-      //       child: Container(
-      //         height: 48,
-      //         child: ElevatedButton(
-      //           onPressed: () {
-      //             showCustomModal(context: context);
-      //           },
-      //           style: ElevatedButton.styleFrom(
-      //               padding: EdgeInsets.symmetric(horizontal: 20),
-      //               side: BorderSide(
-      //                 color: Colors.blue,
-      //                 width: 4,
-      //               ),
-      //               primary: Colors.white,
-      //               shape: StadiumBorder(), // CircleBorder() is Circle
-      //               elevation: 0),
-      //           child: Text(
-      //             'Custom Function',
-      //             style: TextStyle(
-      //               fontWeight: FontWeight.bold,
-      //               color: Colors.blue,
-      //             ),
-      //           ),
-      //         ),
+      //       child: ButtonElevatedCommon(
+      //         onPressed: () {
+      //           CopyMapLoop().testFunction();
+      //         },
       //       ),
-      //     ),
+      //     )
       //   ],
       // ),
+
 
       // body: StaggeredGridViewCommon(
       //   child: CardCommon(),
