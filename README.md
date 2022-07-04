@@ -282,6 +282,14 @@ Logic / Function
     <tr>
         <td>
         <div style="text-align: center;">
+            <img src="docs_image/ProfilePage.png" height="350px"/>
+            <p><a href="lib/docs/profile/ProfilePage.dart" target="_blank">ProfilePage</a></p>
+        </div>
+    </td>
+  </tr>
+    <tr>
+        <td>
+        <div style="text-align: center;">
             <img src="docs_image/showCustomModal.png" height="350px"/>
             <p><a href="lib/docs/modal_bottom_sheet/showCustomModal.dart" target="_blank">showCustomModal</a></p>
         </div>

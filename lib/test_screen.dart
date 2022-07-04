@@ -27,6 +27,7 @@ import 'package:my_documentation/docs/loading/ShimmerOverview.dart';
 import 'package:my_documentation/docs/loading/ShimmerTile.dart';
 import 'package:my_documentation/docs/loading/Skeleton.dart';
 import 'package:my_documentation/docs/modal_bottom_sheet/showCustomModal.dart';
+import 'package:my_documentation/docs/profile/ProfilePage.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
@@ -45,7 +46,7 @@ class TestScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       // appBar: AppBarNormal(),
-      body: TakeImage(),
+      body: ProfilePage(),
     
       // body: Column(
       //   mainAxisAlignment: MainAxisAlignment.center,
