@@ -9,6 +9,7 @@ Small Code Documentations
 5. [TextButtonNoPadding](lib/docs/the_most_forgotten_code/TextButtonNoPadding.dart)
 6. [ListViewNoTopPadding](lib/docs/the_most_forgotten_code/ListViewNoTopPadding.dart)
 7. [IndexOfListItem](lib/docs/the_most_forgotten_code/IndexOfListItem.dart)
+7. [IndexOfListItem](lib/docs/the_most_forgotten_code/Gradient.dart)
 
 </br>
 
