@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyBoxShadow {
-  var gradient = BoxDecoration(
+  var shadow = BoxDecoration(
     boxShadow: [
       BoxShadow(
         color: Colors.black12,
