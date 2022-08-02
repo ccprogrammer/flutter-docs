@@ -18,7 +18,7 @@ Logic / Function
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
-4. [TakeImage](lib/docs/TakeImage)
+
 
 ## Screenshots:
 
@@ -187,6 +187,13 @@ Logic / Function
             <p><a href="lib/docs/text_field/TextFieldCommon.dart" target="_blank">TextFieldCommon</a></p>
         </div>
     </td>  
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TextFieldCommon2.png" height="350px"/>
+            <p><a href="lib/docs/text_field/TextFieldCommon2.dart" target="_blank">TextFieldCommon2</a></p>
+        </div>
+    </td>   
+  </tr>
   <td>
         <div style="text-align: center;">
             <img src="docs_image/TextFieldNoBox.png" height="350px"/>
@@ -194,6 +201,7 @@ Logic / Function
         </div>
     </td>   
   </tr>
+ 
 
 <!-- Dropdown -->
  <tr>
@@ -204,6 +212,17 @@ Logic / Function
         </div>
     </td>  
   </tr>
+
+  <!-- Dropdown -->
+ <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/TakeImageBox.png" height="350px"/>
+            <p><a href="lib/docs/take_image_box/TakeImageBox.dart" target="_blank">TakeImageBox</a></p>
+        </div>
+    </td>  
+  </tr>
+
 <!--  Carousel  -->
     <tr>
         <td>
