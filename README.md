@@ -222,7 +222,6 @@ Logic / Function
         </div>
     </td>  
   </tr>
-
 <!--  Carousel  -->
     <tr>
         <td>
