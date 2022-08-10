@@ -191,7 +191,7 @@ Logic / Function
         <td>
         <div style="text-align: center;">
             <img src="docs_image/CustomTimeLines.png" height="350px"/>
-            <p><a href="lib/docs/text/CustomTimeLines.dart" target="_blank">CustomTimeLines</a></p>
+            <p><a href="lib/docs/timelines/CustomTimeLines.dart" target="_blank">CustomTimeLines</a></p>
         </div>
     </td>   
   </tr>
