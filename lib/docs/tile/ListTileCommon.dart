@@ -1,6 +1,4 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
 
 class ListTileCommon extends StatelessWidget {
   const ListTileCommon({
@@ -8,120 +6,81 @@ class ListTileCommon extends StatelessWidget {
   }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {    
-    return Container(
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.white,
       child: InkWell(
         onTap: () {},
-        child: Stack(
-          children: [
-            Container(
-              padding: EdgeInsets.fromLTRB(18, 18, 24, 18),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: CachedNetworkImage(
-                      width: 84,
-                      height: 84,
-                      fit: BoxFit.cover,
-                      alignment: Alignment.bottomCenter,
-                      imageUrl:
-                          'https://images.unsplash.com/photo-1500373994708-4d781bd7bd15?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhhcnJ5JTIwcG90dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500',
-                      placeholder: (context, url) => Shimmer.fromColors(
-                          child: Container(),
-                          baseColor: Colors.grey[500]!,
-                          highlightColor: Colors.grey[300]!),
-                      errorWidget: (context, url, error) => Icon(Icons.error),
+        child: Container(
+          height: 100,
+          padding: EdgeInsets.fromLTRB(16, 8, 16, 8),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                width: 90,
+                height: 100,
+                decoration: BoxDecoration(
+                  color: Colors.blueAccent.withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Icon(
+                  Icons.image_outlined,
+                  size: 42,
+                  color: Colors.blueAccent,
+                ),
+              ),
+              SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Green Tea',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                      ),
+                      maxLines: 2,
                     ),
-                  ),
-                  SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    Text(
+                      '250ml',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Rp. 8.000',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    Row(
                       children: [
-                        // nama
-                        Text(
-                          'Title',
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
+                        Expanded(
+                          child: Text(
+                            'STATUS PRODUK',
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                          maxLines: 2,
                         ),
-                        SizedBox(height: 4),
-
                         Text(
-                          'subtitle',
-                          style: TextStyle(fontSize: 12),
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                        SizedBox(height: 4),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.date_range_outlined,
-                              size: 16,
-                              color: Colors.black,
-                            ),
-                            SizedBox(width: 4),
-                            Expanded(
-                              child: Text(
-                                'additional information',
-                                style: TextStyle(fontSize: 12),
-                              ),
-                            ),
-                          ],
+                          'ACTIVE',
+                          style: TextStyle(
+                            color: Colors.grey,
+                          ),
                         ),
                       ],
-                    ),
-                  ),
-                  SizedBox(width: 62),
-                ],
-              ),
-            ),
-            Positioned(
-              top: 8,
-              right: 18,
-              child: Container(
-                padding: EdgeInsets.fromLTRB(6, 4, 6, 4),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.amber,
-                    ),
-                    SizedBox(width: 4),
-                    RichText(
-                      text: TextSpan(
-                        children: [
-                          TextSpan(
-                            text: '4',
-                            style: TextStyle(
-                              color: Colors.blueAccent,
-                              fontSize: 14,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          TextSpan(
-                            text: '/5',
-                            style: TextStyle(
-                              color: Colors.blueAccent,
-                              fontSize: 12,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ],
-                      ),
                     ),
                   ],
                 ),
               ),
-            ),
-          ],
+              SizedBox(width: 16),
+            ],
+          ),
         ),
       ),
     );

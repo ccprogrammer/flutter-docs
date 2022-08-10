@@ -33,6 +33,8 @@ Widget ListTileCommon2() {
         ),
       ),
       trailing: IconButton(
+        constraints: BoxConstraints(),
+        padding: EdgeInsets.zero,
         onPressed: () {},
         icon: Icon(Icons.close),
       ),

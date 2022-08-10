@@ -1,11 +1,10 @@
-
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class ExpandableText extends StatefulWidget {
-  const ExpandableText(
-    this.text, {
+  const ExpandableText({
     Key? key,
+    required this.text,
     this.trimLines = 2,
     this.style,
   })  : assert(text != null),
@@ -73,7 +72,7 @@ class ExpandableTextState extends State<ExpandableText> {
             text: _readMore ? widget.text.substring(0, endIndex) : widget.text,
             style: widget.style ??
                 TextStyle(
-                  color: widgetColor,                  
+                  color: widgetColor,
                 ),
             children: <TextSpan>[link],
           );

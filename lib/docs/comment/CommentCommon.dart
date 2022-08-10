@@ -67,7 +67,7 @@ class _CommentCommonState extends State<CommentCommon> {
                 ),
                 SizedBox(height: 4),
                 ExpandableText(
-                  'Apakah ada informasi penyebab masalahnya?',
+                  text: 'Apakah ada informasi penyebab masalahnya?',
                   trimLines: widget.isParentComment ? 4 : 2,
                   style: TextStyle(
                     color: Colors.black,

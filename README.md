@@ -9,7 +9,7 @@ Small Code Documentations
 5. [TextButtonNoPadding](lib/docs/the_most_forgotten_code/TextButtonNoPadding.dart)
 6. [ListViewNoTopPadding](lib/docs/the_most_forgotten_code/ListViewNoTopPadding.dart)
 7. [IndexOfListItem](lib/docs/the_most_forgotten_code/IndexOfListItem.dart)
-7. [Gradient](lib/docs/the_most_forgotten_code/Gradient.dart)
+8. [Gradient](lib/docs/the_most_forgotten_code/Gradient.dart)
 
 </br>
 
@@ -18,7 +18,8 @@ Logic / Function
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
-
+4. [SplitString](lib/docs/LOGIC/SplitString.dart)
+5. [SplitString](lib/docs/LOGIC/image_picker_handler.dart)
 
 ## Screenshots:
 
@@ -83,6 +84,12 @@ Logic / Function
         <div style="text-align: center;">
             <img src="docs_image/ListTileCommon2.png" height="350px"/>
             <p><a href="lib/docs/tile/ListTileCommon2.dart" target="_blank">ListTileCommon2</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ListTileCard.png" height="350px"/>
+            <p><a href="lib/docs/tile/ListTileCard.dart" target="_blank">ListTileCard</a></p>
         </div>
     </td>
 </tr>
@@ -179,6 +186,24 @@ Logic / Function
         </div>
     </td>   
   </tr>
+  <!-- TImelines -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/CustomTimeLines.png" height="350px"/>
+            <p><a href="lib/docs/text/CustomTimeLines.dart" target="_blank">CustomTimeLines</a></p>
+        </div>
+    </td>   
+  </tr>
+    <!-- Date Picker -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/DatePickerBox.png" height="350px"/>
+            <p><a href="lib/docs/date_picker/DatePickerBox.dart" target="_blank">DatePickerBox</a></p>
+        </div>
+    </td>   
+  </tr>
   <!--   Text Field -->
    <tr>
         <td>
@@ -201,7 +226,7 @@ Logic / Function
         </div>
     </td>   
   </tr>
- 
+
 
 <!-- Dropdown -->
  <tr>
@@ -321,6 +346,14 @@ Logic / Function
         <div style="text-align: center;">
             <img src="docs_image/AlertDialogCommon.png" height="350px"/>
             <p><a href="lib/docs/alert_dialog/AlertDialogCommon.dart" target="_blank">AlertDialogCommon</a></p>
+        </div>
+    </td>
+  </tr> 
+  <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/AlertDialogCommon2.png" height="350px"/>
+            <p><a href="lib/docs/alert_dialog/AlertDialogCommon2.dart" target="_blank">AlertDialogCommon2</a></p>
         </div>
     </td>
   </tr> 

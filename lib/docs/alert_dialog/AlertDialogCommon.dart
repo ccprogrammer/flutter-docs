@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-AlertDialogCommon(context) async {
+AlertDialogCommon({required BuildContext context}) async {
   return showDialog(
     context: context,
     builder: (BuildContext context) => Container(
