@@ -218,7 +218,6 @@ Logic / Function
             <p><a href="lib/docs/text_field/TextFieldCommon2.dart" target="_blank">TextFieldCommon2</a></p>
         </div>
     </td>   
-  </tr>
   <td>
         <div style="text-align: center;">
             <img src="docs_image/TextFieldNoBox.png" height="350px"/>
