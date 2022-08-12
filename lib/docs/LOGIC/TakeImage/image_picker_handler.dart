@@ -147,8 +147,11 @@
 //             abortOnError false
 //         }
 
+// 7. in build.gradle/android/app 
+//    change minSdkVersion flutter.minSdkVersion to minSdkVersion 20    
+     
+//    because at some point in device image picker can only take photo once when it press again no action is happend                 
 
-
-// 7. call imagePicker. to use the function
+// 8. call imagePicker. to use the function
 //     imagePicker.showDialog(context);
 // */
