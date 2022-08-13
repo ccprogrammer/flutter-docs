@@ -225,8 +225,6 @@ Logic / Function
         </div>
     </td>   
   </tr>
-
-
 <!-- Dropdown -->
  <tr>
         <td>
@@ -236,7 +234,6 @@ Logic / Function
         </div>
     </td>  
   </tr>
-
   <!-- TakeImageBox  -->
  <!-- <tr>
         <td>
@@ -246,7 +243,6 @@ Logic / Function
         </div>
     </td>  
   </tr> -->
-  
 <!--  Carousel  -->
     <tr>
         <td>
