@@ -19,7 +19,9 @@ Logic / Function
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
 4. [SplitString](lib/docs/LOGIC/SplitString.dart)
-5. [SplitString](lib/docs/LOGIC/image_picker_handler.dart)
+5. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
+6. [image_picker_handler](lib/docs/LOGIC/image_picker_handler.dart)
+
 
 ## Screenshots:
 
