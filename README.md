@@ -235,14 +235,14 @@ Logic / Function
     </td>  
   </tr>
   <!-- TakeImageBox  -->
- <!-- <tr>
+ <tr>
         <td>
         <div style="text-align: center;">
             <img src="docs_image/TakeImageBox.png" height="350px"/>
             <p><a href="lib/docs/take_image_box/TakeImageBox.dart" target="_blank">TakeImageBox</a></p>
         </div>
     </td>  
-  </tr> -->
+  </tr>
 <!--  Carousel  -->
     <tr>
         <td>
