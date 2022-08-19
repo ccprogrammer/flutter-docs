@@ -321,7 +321,7 @@ Logic / Function
     </td>
     <td>
         <div style="text-align: center;">
-            <img src="docs_image/OnBoarding.png" height="350px"/>
+            <img src="docs_image/OnBoarding1.png" height="350px"/>
             <p><a href="lib/docs/introduction_page/OnBoarding.dart" target="_blank">OnBoarding</a></p>
         </div>
     </td>
