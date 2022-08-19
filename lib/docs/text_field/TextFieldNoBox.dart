@@ -9,13 +9,12 @@ Widget TextFieldNoBox() {
         color: Colors.white.withOpacity(0.87),
         fontSize: 22,
       ),
-      decoration: InputDecoration(
+      decoration: InputDecoration.collapsed(
         hintText: 'Type here',
         hintStyle: TextStyle(
           color: Colors.white.withOpacity(0.67),
           fontSize: 16,
         ),
-        border: InputBorder.none,
       ),
     ),
   );

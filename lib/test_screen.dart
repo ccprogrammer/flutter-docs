@@ -7,7 +7,7 @@ import 'package:my_documentation/docs/app_bar/AppBarListTile.dart';
 import 'package:my_documentation/docs/app_bar/AppBarNormal.dart';
 import 'package:my_documentation/docs/app_bar/AppBarSearch.dart';
 import 'package:my_documentation/docs/button/ButtonCircleIcon.dart';
-import 'package:my_documentation/docs/button/ButtonElevatedCommon.dart';
+import 'package:my_documentation/docs/button/CustomButton.dart';
 import 'package:my_documentation/docs/button/ButtonTextCommon.dart';
 import 'package:my_documentation/docs/card/CardCommon.dart';
 import 'package:my_documentation/docs/card/CardList.dart';
@@ -36,6 +36,7 @@ import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
 import 'package:my_documentation/docs/snackbar/SnackBarCommon.dart';
 import 'package:my_documentation/docs/text/ExpandableText.dart';
+import 'package:my_documentation/docs/text_field/TextFieldArea.dart';
 import 'package:my_documentation/docs/text_field/TextFieldCommon.dart';
 import 'package:my_documentation/docs/text_field/TextFieldCommon2.dart';
 import 'package:my_documentation/docs/text_field/TextFieldNoBox.dart';
@@ -58,8 +59,11 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: ButtonElevatedCommon(
-              onPressed: () {},
+            child: CustomTextArea(
+              label: 'ASD',
+              controller: TextEditingController(),
+              hintText: 'ASD',
+              onChangeListener: () {},
             ),
           )
         ],

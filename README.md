@@ -21,6 +21,7 @@ Logic / Function
 4. [SplitString](lib/docs/LOGIC/SplitString.dart)
 5. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
 6. [image_picker_handler](lib/docs/LOGIC/image_picker_handler.dart)
+7. [Debounce](lib/docs/LOGIC/Debounce.dart)
 
 
 ## Screenshots:
@@ -168,8 +169,8 @@ Logic / Function
     </td>
     <td>
         <div style="text-align: center;">
-            <img src="docs_image/ButtonElevatedCommon.png" height="350px"/>
-            <p><a href="lib/docs/button/ButtonElevatedCommon.dart" target="_blank">ButtonElevatedCommon</a></p>
+            <img src="docs_image/CustomButton.png" height="350px"/>
+            <p><a href="lib/docs/button/CustomButton.dart" target="_blank">CustomButton</a></p>
         </div>
     </td>
       <td>
@@ -225,7 +226,13 @@ Logic / Function
             <img src="docs_image/TextFieldNoBox.png" height="350px"/>
             <p><a href="lib/docs/text_field/TextFieldNoBox.dart" target="_blank">TextFieldNoBox</a></p>
         </div>
-    </td>   
+    </td>  
+     <td>
+        <div style="text-align: center;">
+            <img src="docs_image/CustomTextArea.png" height="350px"/>
+            <p><a href="lib/docs/text_field/CustomTextArea.dart" target="_blank">CustomTextArea</a></p>
+        </div>
+    </td>  
   </tr>
 <!-- Dropdown -->
  <tr>
@@ -310,6 +317,12 @@ Logic / Function
         <div style="text-align: center;">
             <img src="docs_image/IntroductionPage.png" height="350px"/>
             <p><a href="lib/docs/introduction_page/IntroductionPage.dart" target="_blank">IntroductionPage</a></p>
+        </div>
+    </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/OnBoarding.png" height="350px"/>
+            <p><a href="lib/docs/introduction_page/OnBoarding.dart" target="_blank">OnBoarding</a></p>
         </div>
     </td>
   </tr>
