@@ -1,4 +1,3 @@
-
 import 'package:shared_preferences/shared_preferences.dart';
 
 setInstanceString(String key, String value) async {
@@ -7,15 +6,23 @@ setInstanceString(String key, String value) async {
   return value;
 }
 
-setInstanceBool(String key, bool value) async {
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  await prefs.setBool(key, value);
-  return value;
-} 
+
 
 getInstanceString(String key) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   var value = prefs.getString(key);
+  return value;
+}
+
+setInstanceBool(String key, bool value) async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  await prefs.setBool(key, value);
+  return value;
+}
+
+getInstanceBool(String key) async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  var value = prefs.getBool(key);
   return value;
 }
 
