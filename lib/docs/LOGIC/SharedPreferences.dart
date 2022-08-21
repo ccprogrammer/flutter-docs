@@ -51,4 +51,5 @@ clearInstance() async {
     await setInstanceString("phone", member['member_phone']);
     await setInstanceInt("status", member['member_status']);
     await setInstanceInt("type", member['member_type']);
+    await setInstanceBool('isLoggedIn', true);
   }
