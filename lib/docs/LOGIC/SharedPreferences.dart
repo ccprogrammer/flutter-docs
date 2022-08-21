@@ -1,5 +1,11 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+checkInstanceKey(String key) async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  bool isKey = prefs.containsKey(key);
+  return isKey;
+}
+
 setInstanceString(String key, String value) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   await prefs.setString(key, value);
