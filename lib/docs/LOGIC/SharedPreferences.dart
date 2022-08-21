@@ -6,8 +6,6 @@ setInstanceString(String key, String value) async {
   return value;
 }
 
-
-
 getInstanceString(String key) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   var value = prefs.getString(key);
