@@ -22,6 +22,8 @@ Logic / Function
 5. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
 6. [image_picker_handler](lib/docs/LOGIC/image_picker_handler.dart)
 7. [Debounce](lib/docs/LOGIC/Debounce.dart)
+8. [InsertMapByIndex](lib/docs/LOGIC/InsertMapByIndex.dart)
+8. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
 
 
 ## Screenshots:
