@@ -197,11 +197,11 @@ Logic / Function
     </td>   
   </tr>
   <!-- TImelines -->
-   <tr>
+      <tr>
         <td>
         <div style="text-align: center;">
-            <img src="docs_image/CustomTimeLines.png" height="350px"/>
-            <p><a href="lib/docs/timelines/CustomTimeLines.dart" target="_blank">CustomTimeLines</a></p>
+            <img src="docs_image/ExpandableText.png" height="350px"/>
+            <p><a href="lib/docs/text/ExpandableText.dart" target="_blank">ExpandableText</a></p>
         </div>
     </td>   
   </tr>
