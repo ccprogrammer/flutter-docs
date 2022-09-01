@@ -23,8 +23,7 @@ Logic / Function
 6. [image_picker_handler](lib/docs/LOGIC/image_picker_handler.dart)
 7. [Debounce](lib/docs/LOGIC/Debounce.dart)
 8. [InsertMapByIndex](lib/docs/LOGIC/InsertMapByIndex.dart)
-8. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
-
+9. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
 
 ## Screenshots:
 
@@ -160,8 +159,14 @@ Logic / Function
             <p><a href="lib/docs/rating_review/ReviewRatingCard.dart" target="_blank">ReviewRatingCard</a></p>
         </div>
     </td>
+     <td>
+        <div style="text-align: center;">
+            <img src="docs_image/AddReviewBox.png" height="350px"/>
+            <p><a href="lib/docs/rating_review/AddReviewBox.dart" target="_blank">AddReviewBox</a></p>
+        </div>
+    </td>
   </tr>
-    <!--   Button -->
+    <!-- Button -->
    <tr>
         <td>
         <div style="text-align: center;">
@@ -361,13 +366,12 @@ Logic / Function
             <p><a href="lib/docs/alert_dialog/AlertDialogCommon.dart" target="_blank">AlertDialogCommon</a></p>
         </div>
     </td>
-  </tr> 
-  <tr>
         <td>
         <div style="text-align: center;">
             <img src="docs_image/AlertDialogCommon2.png" height="350px"/>
             <p><a href="lib/docs/alert_dialog/AlertDialogCommon2.dart" target="_blank">AlertDialogCommon2</a></p>
         </div>
     </td>
+
   </tr> 
 </table>

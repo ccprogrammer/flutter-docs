@@ -27,7 +27,7 @@ class _TakeImageBoxState extends State<TakeImageBox> {
       width: width * 0.2,
       height: height * 0.25,
       decoration: BoxDecoration(
-        color: Color(0xff121212),
+        color: Colors.grey,
         border: Border.all(
           color: Colors.white24,
           width: 1,
@@ -39,34 +39,21 @@ class _TakeImageBoxState extends State<TakeImageBox> {
           onTap: () {
             getImage();
           },
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Expanded(
-                child: _pickedPhoto == null
-                    ? Icon(
-                        Icons.camera_alt_sharp,
-                        color: Colors.green,
-                        size: width * 0.1,
-                      )
-                    : Container(
-                        width: double.infinity,
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: FileImage(File(_pickedPhoto!.path)),
-                            fit: BoxFit.fill,
-                          ),
-                        ),
-                      ),
-              ),
-              Container(
-                margin: EdgeInsets.only(bottom: 12, top: 4),
-                child: Text(
-                  'Desc Image',
+          child: _pickedPhoto == null
+              ? Icon(
+                  Icons.camera_alt_sharp,
+                  color: Colors.white,
+                  size: width * 0.1,
+                )
+              : Container(
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: FileImage(File(_pickedPhoto!.path)),
+                      fit: BoxFit.fill,
+                    ),
+                  ),
                 ),
-              ),
-            ],
-          ),
         ),
       ),
     );

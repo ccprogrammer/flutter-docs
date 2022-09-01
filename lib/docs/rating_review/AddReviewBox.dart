@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TakeImageBox extends StatefulWidget {
-  const TakeImageBox({Key? key}) : super(key: key);
+class AddReviewBox extends StatefulWidget {
+  const AddReviewBox({Key? key}) : super(key: key);
 
   @override
-  State<TakeImageBox> createState() => _TakeImageBoxState();
+  State<AddReviewBox> createState() => _AddReviewBoxState();
 }
 
-class _TakeImageBoxState extends State<TakeImageBox> {
+class _AddReviewBoxState extends State<AddReviewBox> {
   @override
   Widget build(BuildContext context) {
     return Column(

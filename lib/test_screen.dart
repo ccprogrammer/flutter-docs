@@ -31,10 +31,12 @@ import 'package:my_documentation/docs/loading/Skeleton.dart';
 import 'package:my_documentation/docs/menu/CustomMenu.dart';
 import 'package:my_documentation/docs/modal_bottom_sheet/showCustomModal.dart';
 import 'package:my_documentation/docs/profile/ProfilePage.dart';
+import 'package:my_documentation/docs/rating_review/AddReviewBox.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
 import 'package:my_documentation/docs/snackbar/SnackBarCommon.dart';
+import 'package:my_documentation/docs/take_image_box/TakeImageBox.dart';
 import 'package:my_documentation/docs/text/ExpandableText.dart';
 import 'package:my_documentation/docs/text_field/TextFieldArea.dart';
 import 'package:my_documentation/docs/text_field/TextFieldCommon.dart';
@@ -59,12 +61,7 @@ class TestScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: CustomTextArea(
-              label: 'ASD',
-              controller: TextEditingController(),
-              hintText: 'ASD',
-              onChangeListener: () {},
-            ),
+            child: CustomTimelines(),
           )
         ],
       ),

@@ -61,7 +61,7 @@ class _CustomTimelinesState extends State<CustomTimelines> {
                       Container(
                         margin: EdgeInsets.fromLTRB(0, 0, 0, 4),
                         child: Text(
-                          'CHECK OUT DI WARUNG IBU RIMA',
+                          'CHECK OUT DI TOKO',
                           style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w800,
