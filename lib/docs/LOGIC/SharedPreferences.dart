@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 checkInstanceKey(String key) async {
@@ -8,14 +10,14 @@ checkInstanceKey(String key) async {
 
 setInstanceString(String key, String value) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  await prefs.setString(key, value);
+  await prefs.setString(key, jsonEncode(value));
   return value;
 }
 
 getInstanceString(String key) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   var value = prefs.getString(key);
-  return value;
+  return jsonDecode(value);
 }
 
 setInstanceBool(String key, bool value) async {
@@ -46,16 +48,3 @@ clearInstance() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   await prefs.clear();
 }
-
-
-// EXAMPLE
- setDataInstance(msg, member) async {
-    await setInstanceString('authKey', msg);
-    await setInstanceString('email', member['member_email']);
-    await setInstanceString("username", member['member_username']);
-    await setInstanceString("nama", member['member_nm']);
-    await setInstanceString("phone", member['member_phone']);
-    await setInstanceInt("status", member['member_status']);
-    await setInstanceInt("type", member['member_type']);
-    await setInstanceBool('isLoggedIn', true);
-  }
