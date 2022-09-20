@@ -10,7 +10,7 @@ checkInstanceKey(String key) async {
 
 setInstanceString(String key, String value) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  await prefs.setString(key, jsonEncode(value));
+  await prefs.setString(key, value);
   return value;
 }
 
