@@ -7,21 +7,19 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 
 class HttpService {
-  Map<String, String> headers = {};
+  Map<String, String> requestHeaders = {
+    'Content-type': 'application/json; charset=UTF-8',
+    'Accept': 'application/json',
+    'X-Auth-Token': "",
+  };
 
   final JsonDecoder _decoder = const JsonDecoder();
 
   static const _baseUrl = "YOUR_BASE_URL";
 
-  Future<dynamic> get(String desturl, {dynamic headers}) {
-    dynamic requestHeaders = {
-      'Content-type': 'application/json; charset=UTF-8',
-      'Accept': 'application/json',
-      'X-Auth-Token': "",
-    };
-
+  Future<dynamic> get(String endpoint) {
     return http
-        .get(Uri.parse(_baseUrl + desturl), headers: requestHeaders)
+        .get(Uri.parse(_baseUrl + endpoint), headers: requestHeaders)
         .then((http.Response response) {
       final int statusCode = response.statusCode;
 
@@ -34,22 +32,17 @@ class HttpService {
     });
   }
 
-  Future<dynamic> post(String desturl,
-      {Map<String, String>? headers, body, encoding}) {
+  Future<dynamic> post(String endpoint, {dynamic body}) {
     if (body == null) {
       body = {};
     }
 
-    Map<String, String> requestHeaders = {
-      "Content-type": "application/json; charset=UTF-8",
-      "Accept": "application/json",
-      "X-Auth-Token": "",
-    };
     return http
-        .post(Uri.parse(_baseUrl + desturl),
-            body: json.encode(body),
-            headers: requestHeaders,
-            encoding: encoding)
+        .post(
+      Uri.parse(_baseUrl + endpoint),
+      body: json.encode(body),
+      headers: requestHeaders,
+    )
         .then((http.Response response) {
       final int statusCode = response.statusCode;
 
