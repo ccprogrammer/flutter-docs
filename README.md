@@ -16,6 +16,7 @@ Small Code Documentations
 Logic / Function
 
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
+1. [HttpService](lib/docs/LOGIC/HttpService.dart)
 2. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
 4. [SplitString](lib/docs/LOGIC/SplitString.dart)

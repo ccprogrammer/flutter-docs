@@ -17,7 +17,7 @@ setInstanceString(String key, String value) async {
 getInstanceString(String key) async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
   var value = prefs.getString(key);
-  return jsonDecode(value);
+  return jsonDecode(value!);
 }
 
 setInstanceBool(String key, bool value) async {
