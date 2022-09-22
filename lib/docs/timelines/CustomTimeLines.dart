@@ -20,6 +20,7 @@ class _CustomTimelinesState extends State<CustomTimelines> {
           padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
           child: Timeline.tileBuilder(
             shrinkWrap: true,
+            padding: EdgeInsets.zero,
             theme: TimelineTheme.of(context).copyWith(
               nodePosition: 0,
               connectorTheme: TimelineTheme.of(context).connectorTheme.copyWith(
