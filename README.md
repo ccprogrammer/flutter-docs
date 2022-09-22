@@ -21,7 +21,7 @@ Logic / Function
 3. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
 4. [SplitString](lib/docs/LOGIC/SplitString.dart)
 5. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
-6. [image_picker_handler](lib/docs/LOGIC/image_picker_handler.dart)
+6. [image_picker_handler](lib/docs/LOGIC/TakeImage)
 7. [Debounce](lib/docs/LOGIC/Debounce.dart)
 8. [InsertMapByIndex](lib/docs/LOGIC/InsertMapByIndex.dart)
 9. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
