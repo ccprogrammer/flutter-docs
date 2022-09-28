@@ -175,6 +175,13 @@ Logic / Function
             <p><a href="lib/docs/button/ButtonTextCommon.dart" target="_blank">ButtonTextCommon</a></p>
         </div>
     </td>
+     <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ButtonInkWell.png" height="350px"/>
+            <p><a href="lib/docs/button/ButtonInkWell.dart" target="_blank">ButtonInkWell</a></p>
+        </div>
+    </td>
     <td>
         <div style="text-align: center;">
             <img src="docs_image/CustomButton.png" height="350px"/>
