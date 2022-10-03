@@ -58,6 +58,12 @@ Logic / Function
             <p><a href="lib/docs/app_bar/InvisibleExpandedHeader.dart" target="_blank">InvisibleExpandedHeader</a></p>
         </div>
     </td>
+    <td>
+        <div style="text-align: center;">
+            <img src="docs_image/SliverAppBar1.png" height="350px"/>
+            <p><a href="lib/docs/app_bar/SliverAppBar1.dart" target="_blank">SliverAppBar1</a></p>
+        </div>
+    </td>
   </tr>
 <!--  Card  -->
   <tr>
