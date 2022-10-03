@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// NOTE: Screen must wrapped by safe area if not the menu padding top is not precise
 class CustomMenu extends StatelessWidget {
   const CustomMenu({Key? key}) : super(key: key);
 
@@ -17,7 +18,7 @@ class CustomMenu extends StatelessWidget {
       color: Colors.blueAccent,
       child: Container(
         width: width,
-        padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+        padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
         child: GridView.builder(
           padding: EdgeInsets.zero,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
