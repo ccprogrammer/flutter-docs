@@ -10,85 +10,83 @@ Widget SliverAppBar1() {
     elevation: 3.0,
     forceElevated: true,
     backgroundColor: Colors.white,
-    shape: const RoundedRectangleBorder(
-      borderRadius: BorderRadius.only(
-        bottomLeft: Radius.circular(20),
-        bottomRight: Radius.circular(20),
-      ),
-    ),
-    expandedHeight: 90,
+    expandedHeight: 140,
     flexibleSpace: FlexibleSpaceBar(
       centerTitle: true,
       title: InvisibleExpandedHeader(
         child: Text(
-          'HITMAN',
+          'Flutter',
           style: TextStyle(
             fontSize: 18,
             color: Color(0xff574C4C),
           ),
         ),
       ),
-      background: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
-                // ignore: prefer_const_literals_to_create_immutables
-                children: [
-                  // ignore: prefer_const_constructors
-                  Text(
-                    'John Wick',
-                    style: const TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.black,
-                    ),
-                  ),
-                  SizedBox(height: 6),
-                  Text(
-                    'Hitman',
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: Color(0xff6d6875),
-                    ),
-                  ),
-                  Text(
-                    'Hidden',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.black,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Container(
-              width: 78,
-              height: 78,
+      background: Stack(
+        children: [
+          Hero(
+            tag: 'logo',
+            child: Container(
               decoration: BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black26,
-                    spreadRadius: 1,
-                    blurRadius: 10,
-                    offset: Offset(1, 2), // x, y changes position of shadow
-                  )
-                ],
-                image: DecorationImage(
-                  image: NetworkImage(
-                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QaWW0n5lMGljH895ZVmNZzl0FJVmcr2wGw&usqp=CAU'),
-                  fit: BoxFit.cover,
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xffE51937),
+                    Color(0xffDB5252),
+                  ],
                 ),
-                color: Colors.white,
-                shape: BoxShape.circle,
+              ),
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: Padding(
+                  padding: EdgeInsets.only(top: 48),
+                  child: Image.network(
+                    'https://brandslogos.com/wp-content/uploads/images/large/visual-studio-code-logo.png',
+                    width: 42,
+                  ),
+                ),
               ),
             ),
-          ],
-        ),
+          ),
+          Positioned(
+            bottom: 16,
+            left: 16,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'My Sliver',
+                  style: TextStyle(
+                    color: Colors.white,
+                    shadows: [
+                      Shadow(
+                        blurRadius: 15.0,
+                        color: Colors.black,
+                        offset: Offset(4.0, 4.0),
+                      ),
+                    ],
+                  ),
+                ),
+                Text(
+                  'costume your sliver here',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    color: Colors.white.withOpacity(0.8),
+                    fontSize: 12,
+                    shadows: [
+                      Shadow(
+                        blurRadius: 15.0,
+                        color: Colors.black,
+                        offset: Offset(4.0, 4.0),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     ),
   );

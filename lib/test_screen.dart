@@ -35,6 +35,7 @@ import 'package:my_documentation/docs/rating_review/AddReviewBox.dart';
 import 'package:my_documentation/docs/rating_review/RatingBox.dart';
 import 'package:my_documentation/docs/rating_review/ReviewCardCommon.dart';
 import 'package:my_documentation/docs/rating_review/ReviewRatingCard.dart';
+import 'package:my_documentation/docs/sliver_app_bar/SliverAppBar1.dart';
 import 'package:my_documentation/docs/snackbar/SnackBarCommon.dart';
 import 'package:my_documentation/docs/take_image_box/TakeImageBox.dart';
 import 'package:my_documentation/docs/text/ExpandableText.dart';
@@ -50,25 +51,43 @@ import 'package:my_documentation/docs/timelines/CustomTimeLines.dart';
 class TestScreen extends StatelessWidget {
   const TestScreen({Key? key}) : super(key: key);
 
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     backgroundColor: Colors.white,
+  //     // appBar: AppBarNormal(),
+  //     // body: ProfilePage(),
+
+  //     body: Column(
+  //       mainAxisAlignment: MainAxisAlignment.center,
+  //       children: [
+  //         Center(
+  //           child: CustomTimelines(),
+  //         )
+  //       ],
+  //     ),
+
+  //     // body: StaggeredGridViewCommon(
+  //     //   child: CardCommon(),
+  //     // ),
+  //   );
+  // }
+
+// Sliver Body
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      // appBar: AppBarNormal(),
-      // body: ProfilePage(),
-
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Center(
-            child: CustomTimelines(),
-          )
-        ],
+      body: SafeArea(
+        child: NestedScrollView(
+          headerSliverBuilder: (context, v) => [
+            SliverAppBar1(),
+          ],
+          body: ListView(
+            children: [],
+          ),
+        ),
       ),
-
-      // body: StaggeredGridViewCommon(
-      //   child: CardCommon(),
-      // ),
     );
   }
 }
