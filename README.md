@@ -16,15 +16,16 @@ Small Code Documentations
 Logic / Function
 
 1. [SharedPreferences](lib/docs/LOGIC/SharedPreferences.dart)
-1. [HttpService](lib/docs/LOGIC/HttpService.dart)
-1. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
-1. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
-1. [SplitString](lib/docs/LOGIC/SplitString.dart)
-1. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
-1. [image_picker_handler](lib/docs/LOGIC/TakeImage)
-1. [Debounce](lib/docs/LOGIC/Debounce.dart)
-1. [InsertMapByIndex](lib/docs/LOGIC/InsertMapByIndex.dart)
-1. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
+2. [HttpService](lib/docs/LOGIC/HttpService.dart)
+3. [LoopListMapByKeys](lib/docs/LOGIC/LoopListMapByKeys.dart)
+4. [CopyMap](lib/docs/LOGIC/CopyMap.dart)
+5. [SplitString](lib/docs/LOGIC/SplitString.dart)
+6. [ColorFromHex](lib/docs/LOGIC/ColorFromHex.dart)
+7. [image_picker_handler](lib/docs/LOGIC/TakeImage)
+8. [Debounce](lib/docs/LOGIC/Debounce.dart)
+9. [InsertMapByIndex](lib/docs/LOGIC/InsertMapByIndex.dart)
+10. [TimestampConverter](lib/docs/LOGIC/TimestampConverter.dart)
+11. [ConvertImageToBytes](lib/docs/LOGIC/ConvertImageToBytes.dart)
 
 ## Screenshots:
 
