@@ -11,7 +11,7 @@ class TakeImageBox extends StatefulWidget {
 }
 
 class _TakeImageBoxState extends State<TakeImageBox> {
-  XFile? _pickedPhoto;
+  XFile? _pickedPhoto; // or change XFile to dynamic
   getImage() async {
     ImagePicker _picker = ImagePicker();
     _pickedPhoto = await _picker.pickImage(source: ImageSource.camera);
