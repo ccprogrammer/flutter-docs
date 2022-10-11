@@ -334,7 +334,14 @@ Logic / Function
             <p><a href="lib/docs/grid_view/StaggeredGridViewCommon.dart" target="_blank">StaggeredGridViewCommon</a></p>
         </div>
     </td>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/WrapGrid.png" height="350px"/>
+            <p><a href="lib/docs/grid_view/WrapGrid.dart" target="_blank">WrapGrid</a></p>
+        </div>
+    </td>
   </tr>
+  <!-- Image -->
     <tr>
         <td>
         <div style="text-align: center;">
