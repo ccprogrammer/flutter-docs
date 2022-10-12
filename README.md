@@ -390,6 +390,15 @@ Logic / Function
         </div>
     </td>
   </tr>  
+    <!-- Indicator -->
+   <tr>
+        <td>
+        <div style="text-align: center;">
+            <img src="docs_image/ColorIndicator.png" height="350px"/>
+            <p><a href="lib/docs/snackbar/ColorIndicator.dart" target="_blank">ColorIndicator</a></p>
+        </div>
+    </td>
+  </tr>  
   <!-- AlertDialog -->
    <tr>
         <td>
