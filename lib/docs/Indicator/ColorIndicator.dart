@@ -12,14 +12,21 @@ class _ColorIndicatorState extends State<ColorIndicator> {
   double indicatorMargin =
       5; // initial left margin 5 = margin between outer indicator color and white circle indicator
   List colorList = [
-    '0xff394A54',
-    '0xffEBA823',
-    '0xff757477',
-    '0xff29282C',
-    '0xffECE9DA',
-    '0xff219ebc',
-    '0xffe63946',
-    '0xffbc6c25',
+    {
+      'color': '0xff394A54',
+    },
+    {
+      'color': '0xffEBA823',
+    },
+    {
+      'color': '0xff757477',
+    },
+    {
+      'color': '0xff29282C',
+    },
+    {
+      'color': '0xffECE9DA',
+    },
   ];
 
   @override
@@ -37,7 +44,7 @@ class _ColorIndicatorState extends State<ColorIndicator> {
               Row(
                 children: colorList.map((e) {
                   int index = colorList.indexOf(e);
-                  Color color = Color(int.parse(e));
+                  Color color = Color(int.parse(e['color']));
 
                   return GestureDetector(
                     onTap: () {
@@ -54,9 +61,7 @@ class _ColorIndicatorState extends State<ColorIndicator> {
                       margin: EdgeInsets.only(right: 20),
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: Color(
-                          int.parse(e),
-                        ),
+                        color: color,
                       ),
                     ),
                   );
@@ -98,26 +103,40 @@ class ColorIndicatorProps extends StatefulWidget {
   final Function onChangeListener;
   final double indicatorMargin;
   final Color indicatorColor;
+
   @override
   State<ColorIndicatorProps> createState() => _ColorIndicatorPropsState();
 }
 
 class _ColorIndicatorPropsState extends State<ColorIndicatorProps> {
-
   /* this is how you call it
-  ColorIndicatorProps(
-    colorList: colorList,
-    indicatorColor: indicatorColor,
-    indicatorMargin: indicatorMargin, // initial left margin 5
-    onChangeListener: (color, _indicatorMargin) {
-      setState(() {
-        indicatorColor = color;
-        indicatorMargin = _indicatorMargin;
-      }); 
-    },
-  );
-*/
+     ColorIndicatorProps(
+      colorList: productList,
+      indicatorColor: indicatorColor,
+      indicatorMargin: indicatorMargin,
+      onChangeListener: (color, _indicatorMargin, index) {
+        setState(() {
+          currentIndex = index;
+          indicatorColor = color;
+          indicatorMargin = _indicatorMargin;
+        });
+      },
+    ),
 
+  #the example of data needed for the constructor
+
+  int currentIndex = 0;
+  Color indicatorColor = Color(0xff394A54);
+  double indicatorMargin = 5;
+  List productList = [
+    {
+      'color': '0xff394A54',
+    },
+    {
+      'color': '0xffEBA823',
+    },
+  ];
+*/
 
   @override
   Widget build(BuildContext context) {
@@ -133,13 +152,14 @@ class _ColorIndicatorPropsState extends State<ColorIndicatorProps> {
             children: [
               Row(
                 children: widget.colorList.map((e) {
+                  int index = widget.colorList.indexOf(e);
                   double indicatorMargin =
                       5 + (widget.colorList.indexOf(e) * 70);
-                  Color color = Color(int.parse(e));
+                  Color color = Color(int.parse(e['color']));
 
                   return GestureDetector(
                     onTap: () {
-                      widget.onChangeListener(color, indicatorMargin);
+                      widget.onChangeListener(color, indicatorMargin, index);
                       setState(() {});
                     },
                     child: Container(
@@ -148,9 +168,7 @@ class _ColorIndicatorPropsState extends State<ColorIndicatorProps> {
                       margin: EdgeInsets.only(right: 20),
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: Color(
-                          int.parse(e),
-                        ),
+                        color: color,
                       ),
                     ),
                   );
