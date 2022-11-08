@@ -7,13 +7,11 @@ class CustomTextField extends StatefulWidget {
   const CustomTextField(
       {Key? key,
       this.hintText = '',
-      required this.onChangeListener,
       this.controller,
       this.obscureText = false,
       required this.label})
       : super(key: key);
   final String hintText;
-  final Function onChangeListener;
   final TextEditingController? controller;
   final bool obscureText;
   final String label;
@@ -24,8 +22,8 @@ class CustomTextField extends StatefulWidget {
 
 class _CustomTextFieldState extends State<CustomTextField> {
   Timer? _debounce;
-
   bool isObscure = true;
+  bool isFocused = false;
 
   @override
   Widget build(BuildContext context) {
@@ -36,34 +34,41 @@ class _CustomTextFieldState extends State<CustomTextField> {
         children: [
           Text(
             widget.label,
-            style: const TextStyle(
-              color: Colors.grey,
-           
+            style: TextStyle(
+              color: isFocused ? Colors.cyan : Colors.grey,
+              fontWeight: MyTheme.semiBold,
             ),
           ),
           Container(
             margin: const EdgeInsets.only(top: 5),
             padding: const EdgeInsets.symmetric(horizontal: 16),
             decoration: BoxDecoration(
-              color: Colors.grey,
+              color: MyTheme.colorGrey,
               borderRadius: BorderRadius.circular(5),
+              border: Border.all(
+                  width: 1,
+                  color: isFocused ? Colors.cyan : Colors.transparent),
             ),
             height: 45,
             child: Row(
               children: [
                 Expanded(
-                  child: TextFormField(
-                    controller: widget.controller,
-                    obscureText: widget.obscureText ? isObscure : false,
-                    decoration: InputDecoration.collapsed(
-                      hintText: widget.hintText,
+                  child: Focus(
+                    onFocusChange: (value) => setState(() {
+                      isFocused = value;
+                    }),
+                    child: TextFormField(
+                      controller: widget.controller,
+                      obscureText: widget.obscureText ? isObscure : false,
+                      decoration: InputDecoration.collapsed(
+                        hintText: widget.hintText,
+                      ),
+                      onChanged: (value) {
+                        if (_debounce?.isActive ?? false) _debounce!.cancel();
+                        _debounce =
+                            Timer(const Duration(milliseconds: 800), () {});
+                      },
                     ),
-                    onChanged: (value) {
-                      if (_debounce?.isActive ?? false) _debounce!.cancel();
-                      _debounce = Timer(const Duration(milliseconds: 800), () {
-                        widget.onChangeListener(value);
-                      });
-                    },
                   ),
                 ),
                 widget.obscureText
