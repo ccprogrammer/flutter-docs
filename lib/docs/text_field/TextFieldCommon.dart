@@ -28,7 +28,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(top: 32),
-      padding: EdgeInsets.all(16),
+      padding: EdgeInsets.symmetric(horizontal: 16),
       decoration: BoxDecoration(
         color: Colors.grey.withOpacity(0.2),
         borderRadius: BorderRadius.circular(14),
