@@ -37,7 +37,7 @@ class _CustombuttonState extends State<Custombutton> {
           widget.onPressed();
         },
         style: ElevatedButton.styleFrom(
-          primary: widget.backgroundColor,
+          backgroundColor: widget.backgroundColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
           ),
