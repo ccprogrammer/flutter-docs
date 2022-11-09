@@ -54,7 +54,7 @@ class LoadingFallback extends StatelessWidget {
 
     return LoadingOverlay(
       isLoading: isLoading,
-      color: Colors.black87,
+      color: Colors.black54,
       progressIndicator: buildIndicator(),
       child: child,
     );
