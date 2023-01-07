@@ -28,7 +28,7 @@ class Skeleton extends StatelessWidget {
       margin: EdgeInsets.fromLTRB(
           marginleft ?? 0, marginTop ?? 0, marginRight ?? 0, marginBottom ?? 0),
       decoration: BoxDecoration(
-          color: Colors.black.withOpacity(0.4),
+          color: Color(0xff212121),
           borderRadius: BorderRadius.all(Radius.circular(radius ?? 0))),
     );
   }
